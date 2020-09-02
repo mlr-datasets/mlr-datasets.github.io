@@ -6,13 +6,13 @@ plugins:
 - jekyll-seo-tag
 - jekyll-remote-theme
 remote_theme: lawrennd/proceedings
-style: pmlr
+style: dmlr
 description: > # this means to ignore newlines until "baseurl:"
   Datasets of Machine Learning Research  is a series aimed at publishing machine learning data sets. 
   
   The Series Editors are Neil D. Lawrence and Isabelle Guyon. 
 baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "http://proceedings.mlr.press" # the base hostname & protocol for your site
+url: "http://datasets.mlr.press" # the base hostname & protocol for your site
 twitter_username: MLResearchPress
 github_username:  mlr-datasets
 
