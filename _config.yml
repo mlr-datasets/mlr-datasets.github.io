@@ -6,7 +6,7 @@ plugins:
 - jekyll-seo-tag
 - jekyll-remote-theme
 remote_theme: lawrennd/proceedings
-style: pmlr
+style: dmlr
 description: > # this means to ignore newlines until "baseurl:"
   Datasets of Machine Learning Research  is a series aimed at publishing machine learning data sets. 
   
