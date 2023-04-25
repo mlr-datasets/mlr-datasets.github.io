@@ -8,9 +8,10 @@ plugins:
 remote_theme: mlr-datasets/jekyll-theme
 style: dmlr
 description: > # this means to ignore newlines until "baseurl:"
-  Data for Machine Learning Research  is a series aimed at publishing machine learning data and benchmarks. 
+  The Journal of Data-centric Machine Learning Research (DMLR) is a new member of the 
+  JMLR family, aiming to provide a top archival venue for high-quality scholarly articles 
+  focused on the data aspect of machine learning research. 
   
-  The Series Editors are ...
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "https://data.mlr.press" # the base hostname & protocol for your site
 twitter_username: MLResearchPress
