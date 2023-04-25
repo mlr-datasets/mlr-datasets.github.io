@@ -1,16 +1,16 @@
 # Site settings
-title: Datasets of Machine Learning Research
+title: Data of Machine Learning Research
 email: 
 plugins:
 - jekyll-feed
 - jekyll-seo-tag
 - jekyll-remote-theme
-remote_theme: lawrennd/proceedings
+remote_theme: mlr-datasets/jekyll-theme
 style: dmlr
 description: > # this means to ignore newlines until "baseurl:"
-  Datasets of Machine Learning Research  is a series aimed at publishing machine learning data sets. 
+  Data for Machine Learning Research  is a series aimed at publishing machine learning data and benchmarks. 
   
-  The Series Editors are Neil D. Lawrence and Isabelle Guyon. 
+  The Series Editors are ...
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://datasets.mlr.press" # the base hostname & protocol for your site
 twitter_username: MLResearchPress
