@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   
   The Series Editors are ...
 baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "http://data.mlr.press" # the base hostname & protocol for your site
+url: "https://data.mlr.press" # the base hostname & protocol for your site
 twitter_username: MLResearchPress
 github_username:  mlr-datasets
 
