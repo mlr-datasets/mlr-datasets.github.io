@@ -17,6 +17,9 @@ url: "https://data.mlr.press" # the base hostname & protocol for your site
 twitter_username: MLResearchPress
 github_username:  mlr-datasets
 
+header_pages:
+  - submissions.html
+
 ghub:
   edit: true
   repository: mlr-datasets.github.io
