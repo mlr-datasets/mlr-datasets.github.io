@@ -27,3 +27,7 @@ analytics:
 
 # Build settings
 markdown: kramdown
+
+collections:
+  volumes:
+    output: true

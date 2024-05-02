@@ -12,3 +12,5 @@ end
 
 # gem "rails"
 
+
+gem "webrick", "~> 1.8"

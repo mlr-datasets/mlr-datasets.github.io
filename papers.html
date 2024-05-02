@@ -3,3 +3,11 @@ layout: page
 title: Accepted Papers
 ---
 Accepted papers are planned to be published asynchronously and/or as a part of special issues. Stay tuned for the first set of DMLR papers!
+
+<br/>
+
+<ul>
+{% for volume in site.volumes %}
+  <li><a href="{{ volume.url }}"">{{ volume.name }}</a></li>
+{% endfor %}
+</ul>
