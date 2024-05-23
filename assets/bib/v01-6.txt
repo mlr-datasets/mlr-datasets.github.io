@@ -1,10 +1,10 @@
 @article{
-zhang2024labelbench,
-title={LabelBench: A Comprehensive Framework for Benchmarking Adaptive Label-Efficient Learning},
-author={Jifan Zhang and Yifang Chen and Gregory Canal and Arnav Mohanty Das and Gantavya Bhatt and Stephen Mussmann and Yinglun Zhu and Jeff Bilmes and Simon Shaolei Du and Kevin Jamieson and Robert D Nowak},
+zhou2024detecting,
+title={Detecting Errors in a Numerical Response via any Regression Model},
+author={Hang Zhou and Jonas Mueller and Mayank Kumar and Jane-Ling Wang and Jing Lei},
 journal={Journal of Data-centric Machine Learning Research},
 issn={XXXX-XXXX},
 year={2024},
-url={https://openreview.net/forum?id=Y2QcZfwHE7},
-note={Reproducibility Certification}
+url={https://openreview.net/forum?id=CIQ5iemeTw},
+note={}
 }
