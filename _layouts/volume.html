@@ -5,17 +5,16 @@ title: Accepted Papers
 
 {{content}}
 
-<dl>
+
     {% for article in site.data.volumes.v01 %}
+    <dl></dl>
       <dt>
         {{article.title}}
       </dt>
       <dd>
-        &emsp; by 
           <!--Render authors, if not the last, put a comma at the end-->
           {% for author in article.authors %}
-              <b>{{author}}</b>{% if forloop.last == false %},{% endif %}
-            {% endfor %}
+              <b><i>{{author}}</i></b>{% if forloop.last == false %},{% endif %}{% endfor %}, {{article.year}}.
         </b>
       </dd>
     <details>
@@ -28,5 +27,9 @@ title: Accepted Papers
       <!--Click abs, then show the abstract-->
       {{volume.abstract}}
       <a href="/assets/bib/v{{ article.volume }}-{{article.id}}.txt">[bib]</a>
+      <p></p>
+    </dl>
     {% endfor %}
-</dl>
+    
+
+

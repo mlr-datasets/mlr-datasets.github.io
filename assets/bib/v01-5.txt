@@ -1,0 +1,10 @@
+@article{
+oala2024dmlr,
+title={{DMLR}: Data-centric Machine Learning Research - Past, Present and Future},
+author={Luis Oala and Manil Maskey and Lilith Bat-Leah and Alicia Parrish and Nezihe Merve G{\"u}rel and Tzu-Sheng Kuo and Yang Liu and Rotem Dror and Danilo Brajovic and Xiaozhe Yao and Max Bartolo and William A Gaviria Rojas and Ryan Hileman and Rainier Aliment and Michael W. Mahoney and Meg Risdal and Matthew Lease and Wojciech Samek and Debojyoti Dutta and Curtis G Northcutt and Cody Coleman and Braden Hancock and Bernard Koch and Girmaw Abebe Tadesse and Bojan Karla{\v{s}} and Ahmed Alaa and Adji Bousso Dieng and Natasha Noy and Vijay Janapa Reddi and James Zou and Praveen Paritosh and Mihaela van der Schaar and Kurt Bollacker and Lora Aroyo and Ce Zhang and Joaquin Vanschoren and Isabelle Guyon and Peter Mattson},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2024},
+url={https://openreview.net/forum?id=2kpu78QdeE},
+note={Featured Certification, Survey Certification}
+}

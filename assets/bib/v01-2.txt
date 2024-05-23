@@ -1,0 +1,6 @@
+@article{qiu2023benchmarking,
+  title={Benchmarking Robustness of Multimodal Image-Text Models under Distribution Shift},
+  author={Qiu, Jielin and Zhu, Yi and Shi, Xingjian and Wenzel, Florian and Tang, Zhiqiang and Zhao, Ding and Li, Bo and Li, Mu},
+  journal={Journal of Data-centric Machine Learning Research},
+  year={2023}
+}
