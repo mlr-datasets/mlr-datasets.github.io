@@ -24,10 +24,9 @@ title: Accepted Papers
         {{ article.bib}}
     </details>
     <!--Render link to pdf-->
-      <a href="{{ article.pdf }}">[PDF]</a>
+      <a href="/assets/pdf/v{{ article.volume }}-{{article.id}}.pdf">[PDF]</a>
       <!--Click abs, then show the abstract-->
       {{volume.abstract}}
-      <a href="{{ article.openreview }}">[OpenReview]</a>
       <a href="/assets/bib/v{{ article.volume }}-{{article.id}}.txt">[bib]</a>
     {% endfor %}
 </dl>

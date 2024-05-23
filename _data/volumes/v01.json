@@ -1,5 +1,16 @@
 [
     {
+        "abstract": "The increasing demand for high-quality datasets in machine learning has raised concerns about the ethical and responsible creation of these datasets. Dataset creators play a crucial role in developing responsible practices, yet their perspectives and expertise have not yet been highlighted in the current literature. In this paper, we bridge this gap by presenting insights from a qualitative study that included interviewing 18 leading dataset creators about the current state of the field. We shed light on the challenges and considerations faced by dataset creators, and our findings underscore the potential for deeper collaboration, knowledge sharing, and collective development. Through a close analysis of their perspectives, we share seven central recommendations for improving responsible dataset creation, including issues such as data quality, documentation, privacy and consent, and how to mitigate potential harms from unintended use cases. By fostering critical reflection and sharing the experiences of dataset creators, we aim to promote responsible dataset creation practices and develop a nuanced understanding of this crucial but often undervalued aspect of machine learning research.",
+        "authors": [
+            "Will Orr",
+            "Kate Crawford"
+        ],
+        "title": "Building Better Datasets: Seven Recommendations for Responsible Design from Dataset Creators",
+        "volume": "01",
+        "id": "1",
+        "year": "2024"
+    },
+    {
         "abstract": "Multimodal image-text models have shown remarkable performance in the past few years.  However, evaluating robustness against distribution shifts is crucial before adopting them in real-world applications. In this work, we investigate the robustness of 12 popular open-sourced image-text models under common perturbations on five tasks (image-text retrieval, visual reasoning, visual entailment, image captioning, and text-to-image generation). In particular, we propose several new multimodal robustness benchmarks by applying 17 image perturbation and 16 text perturbation techniques on top of existing datasets.  We observe that multimodal models are not robust to image and text perturbations, especially to image perturbations. Among the tested perturbation methods, character-level perturbations constitute the most severe distribution shift for text, and zoom blur is the most severe shift for image data.  We also introduce two new robustness metrics (*MMI* for MultiModal Impact score and *MOR* for Missing Object Rate) for proper evaluations of multimodal models. We hope our extensive study sheds light on new directions for the development of robust multimodal models.  More details can be found on the project webpage: <a href='https://MMRobustness.github.io'>https://MMRobustness.github.io</a>.",
         "authors": [
             "Jielin Qiu",
@@ -13,9 +24,57 @@
         ],
         "title": "Benchmarking Robustness of Multimodal Image-Text Models under Distribution Shift",
         "volume": "01",
-        "id": "01",
-        "year": "2024",
-        "pdf": "https://openreview.net/attachment?id=CIQ5iemeTw&name=pdf",
-        "openreview": "https://openreview.net/forum?id=Vc1fXQ8mJg"
+        "id": "2",
+        "year": "2024"
+    },
+    {
+        "abstract": "This paper revisits datasets and evaluation criteria for Symbolic Regression (SR), specifically focused on its potential for scientific discovery. Focused on a set of formulas used in the existing datasets based on Feynman Lectures on Physics, we recreate 120 datasets to discuss the performance of symbolic regression for scientific discovery (SRSD). For each of the 120 SRSD datasets, we carefully review the properties of the formula and its variables to design reasonably realistic sampling ranges of values so that our new SRSD datasets can be used for evaluating the potential of SRSD such as whether or not an SR method can (re)discover physical laws from such datasets. We also create another 120 datasets that contain dummy variables to examine whether SR methods can choose necessary variables only. Besides, we propose to use normalized edit distances (NED) between a predicted equation and the true equation trees for addressing a critical issue that existing SR metrics are either binary or errors between the target values and an SR model’s predicted values for a given input. We conduct benchmark experiments on our new SRSD datasets using various representative SR methods. The experimental results show that we provide a more realistic performance evaluation, and our user study shows that the NED correlates with human judges significantly more than an existing SR metric. We publish repositories of our code and 240 SRSD datasets.",
+        "authors": [
+            "Yoshitomo Matsubara", "Naoya Chiba", "Ryo Igarashi", "Yoshitaka Ushiku"
+        ],
+        "title": "Rethinking Symbolic Regression Datasets and Benchmarks for Scientific Discovery",
+        "volume": "01",
+        "id": "3",
+        "year": "2024"
+    },
+    {
+        "abstract": "ImageNet is the most cited and well-known dataset for training image classification models. The people categories of its original version from 2009 have been found to be highly problematic (e.g. Crawford and Paglen (2019); Prabhu and Birhane (2020)) and have since been updated to improve their representativity (Yang et al., 2020). In this paper, we examine the past and present versions of the dataset from a variety of quantitative and qualitative angles and note several technical, epistemological and institutional issues, including duplicates, erroneous images, dehumanizing content, and lack of consent. We also discuss the concepts of ‘safety’ and ‘imageability’, which were established as criteria for filtering the people categories of the most recent version of ImageNet 21K. We conclude with a discussion of automated essentialism, the fundamental ethical problem that arises when datasets categorize human identity into a set number of discrete categories based on visual characteristics alone. We end with a call upon the ML community to reassess how training datasets that include human subjects are created and used.",
+        "authors": [
+            "Sasha Luccioni", "Kate Crawford"
+        ],
+        "title": "The Nine Lives of ImageNet: A Sociotechnical Retrospective of a Foundation Dataset and the Limits of Automated Essentialism",
+        "volume": "01",
+        "id": "4",
+        "year": "2024"
+    },
+    {
+        "abstract": "Drawing from discussions at the inaugural DMLR workshop at ICML 2023 and meetings prior, in this report we outline the relevance of community engagement and infrastructure development for the creation of next-generation public datasets that will advance machine learning science. We chart a path forward as a collective effort to sustain the creation and maintenance of these datasets and methods towards positive scientific, societal and business impact.",
+        "authors": [
+            "Luis Oala", "Manil Maskey", "Lilith Bat-Leah", "Alicia Parrish", "Nezihe Merve Gürel", "Tzu-Sheng Kuo", "Yang Liu", "Rotem Dror", "Danilo Brajovic", "Xiaozhe Yao", "Max Bartolo", "William A Gaviria Rojas", "Ryan Hileman", "Rainier Aliment", "Michael W. Mahoney", "Meg Risdal", "Matthew Lease", "Wojciech Samek", "Debojyoti Dutta", "Curtis G Northcutt", "Cody Coleman", "Braden Hancock", "Bernard Koch", "Girmaw Abebe Tadesse", "Bojan Karlaš", "Ahmed Alaa", "Adji Bousso Dieng", "Natasha Noy", "Vijay Janapa Reddi", "James Zou", "Praveen Paritosh", "Mihaela van der Schaar", "Kurt Bollacker", "Lora Aroyo", "Ce Zhang", "Joaquin Vanschoren", "Isabelle Guyon", "Peter Mattson"
+        ],
+        "title": "DMLR: Data-centric Machine Learning Research - Past, Present and Future",
+        "volume": "01",
+        "id": "5",
+        "year": "2024"
+    },
+    {
+        "abstract": "Noise plagues many numerical datasets, where the recorded values in the data may fail to match the true underlying values due to reasons including: erroneous sensors, data entry/processing mistakes, or imperfect human estimates. We consider general regression settings with covariates and a potentially corrupted response whose observed values may contain errors. By accounting for various uncertainties, we introduced veracity scores that distinguish between genuine errors and natural data fluctuations, conditioned on the available covariate information in the dataset. We propose a simple yet efficient filtering procedure for eliminating potential errors, and establish theoretical guarantees for our method. We also contribute a new error detection benchmark involving 5 regression datasets with real-world numerical errors (for which the true values are also known). In this benchmark and additional simulation studies, our method identifies incorrect values with better precision/recall than other approaches.",
+        "authors": [
+            "Hang Zhou", "Jonas Mueller", "Mayank Kumar", "Jane-Ling Wang", "Jing Lei"
+        ],
+        "title": "Detecting Errors in a Numerical Response via any Regression Model",
+        "volume": "01",
+        "id": "6",
+        "year": "2024"
+    },
+    {
+        "abstract": "Labeled data are critical to modern machine learning applications, but obtaining labels can be expensive. To mitigate this cost, machine learning methods, such as transfer learning, semi-supervised learning and active learning, aim to be *label-efficient*: achieving high predictive performance from relatively few labeled examples. While obtaining the best label-efficiency in practice often requires combinations of these techniques, existing benchmark and evaluation frameworks do not capture a concerted combination of all such techniques. This paper addresses this deficiency by introducing LabelBench, a new computationally-efficient framework for joint evaluation of multiple label-efficient learning techniques. As an application of LabelBench, we introduce a novel benchmark of state-of-the-art active learning methods in combination with semi-supervised learning for fine-tuning pretrained vision transformers. Our benchmark demonstrates significantly better label-efficiencies than previously reported in active learning. LabelBench's modular codebase is open-sourced for the broader community to contribute label-efficient learning methods and benchmarks. The repository can be found at: [https://github.com/EfficientTraining/LabelBench](https://github.com/EfficientTraining/LabelBench).",
+        "authors": [
+            "Jifan Zhang", "Yifang Chen", "Gregory Canal", "Arnav Mohanty Das", "Gantavya Bhatt", "Stephen Mussmann", "Yinglun Zhu", "Jeff Bilmes", "Simon Shaolei Du", "Kevin Jamieson", "Robert D Nowak"
+        ],
+        "title": "LabelBench: A Comprehensive Framework for Benchmarking Adaptive Label-Efficient Learning",
+        "volume": "01",
+        "id": "7",
+        "year": "2024"
     }
 ]
