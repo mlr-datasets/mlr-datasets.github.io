@@ -8,7 +8,8 @@
         "title": "Building Better Datasets: Seven Recommendations for Responsible Design from Dataset Creators",
         "volume": "01",
         "id": "1",
-        "year": "2024"
+        "year": "2024",
+        "page":"21"
     },
     {
         "abstract": "Multimodal image-text models have shown remarkable performance in the past few years.  However, evaluating robustness against distribution shifts is crucial before adopting them in real-world applications. In this work, we investigate the robustness of 12 popular open-sourced image-text models under common perturbations on five tasks (image-text retrieval, visual reasoning, visual entailment, image captioning, and text-to-image generation). In particular, we propose several new multimodal robustness benchmarks by applying 17 image perturbation and 16 text perturbation techniques on top of existing datasets.  We observe that multimodal models are not robust to image and text perturbations, especially to image perturbations. Among the tested perturbation methods, character-level perturbations constitute the most severe distribution shift for text, and zoom blur is the most severe shift for image data.  We also introduce two new robustness metrics (*MMI* for MultiModal Impact score and *MOR* for Missing Object Rate) for proper evaluations of multimodal models. We hope our extensive study sheds light on new directions for the development of robust multimodal models.  More details can be found on the project webpage: <a href='https://MMRobustness.github.io'>https://MMRobustness.github.io</a>.",
@@ -25,6 +26,7 @@
         "title": "Benchmarking Robustness of Multimodal Image-Text Models under Distribution Shift",
         "volume": "01",
         "id": "2",
+        "page": "56",
         "year": "2024"
     },
     {
@@ -35,6 +37,7 @@
         "title": "Rethinking Symbolic Regression Datasets and Benchmarks for Scientific Discovery",
         "volume": "01",
         "id": "3",
+        "page": "38",
         "year": "2024"
     },
     {
@@ -45,6 +48,7 @@
         "title": "The Nine Lives of ImageNet: A Sociotechnical Retrospective of a Foundation Dataset and the Limits of Automated Essentialism",
         "volume": "01",
         "id": "4",
+        "page": "18",
         "year": "2024"
     },
     {
@@ -55,6 +59,7 @@
         "title": "DMLR: Data-centric Machine Learning Research - Past, Present and Future",
         "volume": "01",
         "id": "5",
+        "page": "27",
         "year": "2024"
     },
     {
@@ -65,6 +70,7 @@
         "title": "Detecting Errors in a Numerical Response via any Regression Model",
         "volume": "01",
         "id": "6",
+        "page": "25",
         "year": "2024"
     },
     {
@@ -75,6 +81,7 @@
         "title": "LabelBench: A Comprehensive Framework for Benchmarking Adaptive Label-Efficient Learning",
         "volume": "01",
         "id": "7",
+        "page": "43",
         "year": "2024"
     }
 ]

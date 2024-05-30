@@ -5,21 +5,22 @@ title: Accepted Papers
 
 {{content}}
 
-
+<ul class="list-papers list-group list-group-flush">
     {% for article in site.data.volumes.v01 %}
-    <dl></dl>
+    <li class="list-group-item">
+      <dl></dl>
       <dt>
-        {{article.title}}
+        {{article.title|safe}}
       </dt>
       <dd>
           <!--Render authors, if not the last, put a comma at the end-->
           {% for author in article.authors %}
-              <b><i>{{author}}</i></b>{% if forloop.last == false %},{% endif %}{% endfor %}, {{article.year}}.
+              <b><i>{{author}}</i></b>{% if forloop.last == false %},{% endif %}{% endfor %}, ({{article.id}}):1−{{article.page}}, {{article.year}}.
         </b>
       </dd>
     <details>
         <summary>Abstract</summary>
-        {{ article.abstract | markdownify }}
+        <I>{{ article.abstract | markdownify }}</I>
         {{ article.bib}}
     </details>
     <!--Render link to pdf-->
@@ -29,7 +30,8 @@ title: Accepted Papers
       <a href="/assets/bib/v{{ article.volume }}-{{article.id}}.txt">[bib]</a>
       <p></p>
     </dl>
-    {% endfor %}
+    </li>
     
-
+    {% endfor %}
+</ul>
 
