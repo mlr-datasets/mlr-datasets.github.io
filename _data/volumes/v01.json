@@ -83,5 +83,16 @@
         "id": "7",
         "page": "43",
         "year": "2024"
-    }
+    },
+    {
+        "abstract": "We present HAIR, the first dataset of expert-annotated historical aerial images covering different spatial regions spanning several decades. Historical aerial images are a treasure trove of insights into how the world has changed over the last hundred years. Understanding this change is especially important for investigating, among others, the impact of human development on biodiversity. The knowledge contained in these images, however, has not yet been fully unlocked, as this requires semantic segmentation models that are optimized for this type of data. Current models are developed for modern color images, and they do not perform well in historical data that is typically in grayscale. Furthermore, there is no benchmark historical grayscale aerial data that can be used to develop specific segmentation models for it. We here assess the issues of using semantic segmentation models designed for modern color images in historic grayscale data, and introduce HAIR as the first benchmark dataset of large-scale historical aerial grayscale images. HAIR contains ~9*10^9 pixels of high-resolution aerial land images covering the years within the period 1947 - 1998, with detailed annotations performed by domain experts. By using HAIR, we show that pre-training on modern satellite images converted to grayscale does not improve the performance compared to training only on historic aerial grayscale data, stressing the relevance of using actual historical and grayscale aerial data for these studies. We further show that state-of-the-art models underperform when trained on grayscale data compared to using the same data in color, and discuss the challenges faced by these models when applied directly to aerial grayscale data. Overall, HAIR appears as a powerful tool to aid in developing segmentation models that are able to extract the rich and valuable information from historical grayscale images.",
+        "authors": [
+            "Saeid Shamsaliei", "Odd Erik Gundersen", "Knut Tore Alfredsen", "Jo Halvard Halleraker", "Anders Foldvik"
+        ],
+        "title": "Highlighting Challenges of State-of-the-Art Semantic Segmentation with HAIR - A Dataset of Historical Aerial Images",
+        "volume": "01",
+        "id": "8",
+        "year": "2024",
+        "page":"31"
+    },
 ]
