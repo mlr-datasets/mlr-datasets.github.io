@@ -1,0 +1,10 @@
+@article{
+park2024naflora,
+title={NAFlora-1M: Continental-Scale High-Resolution Fine-Grained Plant Classification Dataset},
+author={John Park and Riccardo de Lutio and Brendan Rappazzo and Barbara Ambrose and Fabian Michelangeli and Kimberly Watson and Serge Belongie and Damon Little},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2024},
+url={https://openreview.net/forum?id=UIOM1SSJd0},
+note={Dataset Certification}
+}
