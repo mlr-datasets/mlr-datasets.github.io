@@ -1,0 +1,9 @@
+@article{
+seedat2024pseudolabeling,
+title={You can't handle the (dirty) truth: Data-centric insights improve pseudo-labeling},
+author={Nabeel Seedat and Nicolas Huynh and Fergus Imrie and Mihaela van der Schaar},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2024},
+url={https://openreview.net/forum?id=2tBwcT9z55}
+}
