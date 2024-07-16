@@ -117,4 +117,26 @@
         "year": "2024",
         "page":"21"
     },
+    {
+        "abstract": "Molecular representation learning (MRL) is a powerful contribution by machine learning tochemistry as it converts molecules into numerical representations, which is fundamental fordiverse downstream applications, such as property prediction and drug design. While MRLhas had great success with proteins and general biomolecules, it has yet to be exploredfor carbohydrates in the growing fields of glycoscience and glycomaterials (the study anddesign of carbohydrates). This under-exploration can be primarily attributed to the limitedavailability of comprehensive and well-curated carbohydrate-specific datasets and a lackof machine learning (ML) techniques tailored to meet the unique problems presentedby carbohydrate data. Interpreting and annotating carbohydrate data is generally morecomplicated than protein data and requires substantial domain knowledge. In addition,existing MRL methods were predominately optimized for proteins and small biomoleculesand may not be effective for carbohydrate applications without special modifications. Toaddress this challenge, accelerate progress in glycoscience and glycomaterials, and enrichthe data resources of the ML community, we introduce GlycoNMR. GlycoNMR containstwo laboriously curated datasets with 2,609 carbohydrate structures and 211,543 annotatednuclear magnetic resonance (NMR) atomic-level chemical shifts that can be used to trainML models for precise atomic-level prediction. NMR data is one of the most appealingstarting points for developing ML techniques to facilitate glycoscience and glycomaterialsresearch, as NMR is the preeminent technique in carbohydrate structure research, andbiomolecule structure is among the foremost predictors of functions and properties. Wetailored a set of carbohydrate-specific features and adapted existing 3D-based graph neuralnetworks to tackle the problem of predicting NMR shifts effectively. For illustration, webenchmark these modified MRL models on GlycoNMR.",
+        "authors": [
+            "Zizhang Chen", "Ryan Paul Badman", "Bethany Lachele Foley", "Robert J Woods", "Pengyu Hong" 
+        ],
+        "title": "GlycoNMR: Dataset and Benchmark of Carbohydrate-Specific NMR Chemical Shift for Machine Learning Research",
+        "volume": "01",
+        "id": "11",
+        "year": "2024",
+        "page":"37"
+    },
+    {
+        "abstract": "This paper presents a comprehensive benchmarking suite tailored to offline safe reinforcement learning (RL) challenges, aiming to foster progress in the development and evaluation of safe learning algorithms in both the training and deployment phases. Our benchmark suite contains three packages: 1) expertly crafted safe policies, 2) D4RL-styled datasets along with environment wrappers, and 3) high-quality offline safe RL baseline implementations. We feature a methodical data collection pipeline powered by advanced safe RL algorithms, which facilitates the generation of diverse datasets across 38 popular safe RL tasks, from robot control to autonomous driving. We further introduce an array of data post-processing filters, capable of modifying each dataset's diversity, thereby simulating various data collection conditions. Additionally, we provide elegant and extensible implementations of prevalent offline safe RL algorithms to accelerate research in this area. Through extensive experiments with over 50000 CPU and 800 GPU hours of computations, we evaluate and compare the performance of these baseline algorithms on the collected datasets, offering insights into their strengths, limitations, and potential areas of improvement. Our benchmarking framework serves as a valuable resource for researchers and practitioners, facilitating the development of more robust and reliable offline safe RL solutions in safety-critical applications. The benchmark website is available at www.offline-saferl.org.",
+        "authors": [
+            "Zuxin Liu", "Zijian Guo", "Haohong Lin", "Yihang Yao", "Jiacheng Zhu", "Zhepeng Cen", "Hanjiang Hu", "Wenhao Yu", "Tingnan Zhang", "Jie Tan", "Ding Zhao" 
+        ],
+        "title": "Datasets and Benchmarks for Offline Safe Reinforcement Learning",
+        "volume": "01",
+        "id": "12",
+        "year": "2024",
+        "page":"21"
+    },
 ]
