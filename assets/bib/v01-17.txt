@@ -1,0 +1,10 @@
+@article{
+pugnana2024deep,
+title={Deep Neural Network Benchmarks for Selective Classification},
+author={Andrea Pugnana and Lorenzo Perini and Jesse Davis and Salvatore Ruggieri},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2024},
+url={https://openreview.net/forum?id=xDPzHbtAEs},
+note={Reproducibility Certification}
+}
