@@ -1,0 +1,10 @@
+@article{
+amara-ouali2024forecasting,
+title={Forecasting Electric Vehicle Charging Station Occupancy: Smarter Mobility Data Challenge},
+author={Yvenn Amara-Ouali and Yannig Goude and Nathan Doum{\`e}che and Pascal Veyret and Alexis Thomas and Daniel Hebenstreit and Thomas Wedenig and Arthur SARMINI DET SATOUF and Aymeric Jan and Yannick Deleuze and Paul Berhaut and Sebastien Treguer},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2024},
+url={https://openreview.net/forum?id=0wOwrH5fXQ},
+note={Dataset Certification}
+}
