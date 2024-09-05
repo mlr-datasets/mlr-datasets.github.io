@@ -1,0 +1,10 @@
+@article{
+climaco2024on,
+title={On minimizing the training set fill distance in machine learning regression},
+author={Paolo Climaco and Jochen Garcke},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2024},
+url={https://openreview.net/forum?id=8R7l2uZMVp},
+note={Reproducibility Certification}
+}
