@@ -139,4 +139,37 @@
         "year": "2024",
         "page":"29"
     },
+    {
+        "abstract": "Starting with early successes in computer vision tasks, deep learning based techniques have since overtaken state of the art approaches in a multitude of domains. However, it has been demonstrated time and again that these techniques fail to capture semantic context and logical constraints, instead often relying on spurious correlations to arrive at the answer. Since application of deep learning techniques to critical scenarios are dependent on adherence to domain specific constraints, several attempts have been made to address this issue. One limitation holding back a thorough exploration of this area, is a lack of suitable datasets which feature a rich set of rules. In order to address this, we present the VALUE (Vision And Logical Understanding Evaluation) Dataset, consisting of 200,000 annotated images and an associated rule set, based on the popular board game - chess. The curated rule set considerably constrains the set of allowable predictions, and are designed to probe key semantic abilities like localization and enumeration. Alongside standard metrics, additional metrics to measure performance with regards to logical consistency is presented. We analyze several popular and state of the art vision models on this task, and s.",
+        "authors": [
+            "Soumadeep Saha", "Saptarshi Saha", "Utpal Garain"
+        ],
+        "title": "VALUED - Vision and Logical Understanding Evaluation Dataset",
+        "volume": "01",
+        "id": "13",
+        "year": "2024",
+        "page":"18"
+    },
+    {
+        "abstract": For regression tasks one often leverages large datasets for training predictive machine learning models. However, using large datasets may not be feasible due to computational limitations or high data labelling costs. Therefore, suitably selecting small training sets from large pools of unlabelled data points is essential to maximize model performance while maintaining efficiency. In this work, we study Farthest Point Sampling (FPS), a data selection approach that aims to minimize the fill distance of the selected set. We derive an upper bound for the maximum expected prediction error, conditional to the location of the unlabelled data points, that linearly depends on the training set fill distance. For empirical validation, we perform experiments using two regression models on three datasets. We empirically show that selecting a training set by aiming to minimize the fill distance, thereby minimizing our derived bound, significantly reduces the maximum prediction error of various regression models, outperforming alternative sampling approaches by a large margin. Furthermore, we show that selecting training sets with the FPS can also increase model stability for the specific case of Gaussian kernel regression approaches.,
+        "authors": [
+            "Paolo Climaco", "Jochen Garcke"
+        ],
+        "title": "On minimizing the training set fill distance in machine learning regression",
+        "volume": "01",
+        "id": "14",
+        "year": "2024",
+        "page":"36"
+    },
+    {
+        "abstract":  There is a significant relevance of federated learning (FL) in the realm of Artificial Intelligence of Things (AIoT). However, most of existing FL works are not conducted on datasets collected from authentic IoT devices that capture unique modalities and inherent challenges of IoT data. To fill this critical gap, in this work, we introduce FedAIoT, an FL benchmark for AIoT. FedAIoT includes eight datasets collected from a wide range of IoT devices. These datasets cover unique IoT modalities and target representative applications of AIoT. FedAIoT also includes a unified end-to-end FL framework for AIoT that simplifies benchmarking the performance of the datasets. Our benchmark results shed light on the opportunities and challenges of FL for AIoT. We hope FedAIoT could serve as an invaluable resource to foster advancements in the important field of FL for AIoT. The repository of FedAIoT is maintained at https://github.com/AIoT-MLSys-Lab/FedAIoT.,
+        "authors": [
+            "Samiul Alam", "Tuo Zhang", "Tiantian Feng", "Hui Shen", "Zhichao Cao", "Dong Zhao", "Jeonggil Ko", "Kiran Somasundaram", "Shrikanth Narayanan", "Salman Avestimehr", "Mi Zhang" 
+        ],
+        "title": "FedAIoT: A Federated Learning Benchmark for Artificial Intelligence of Things",
+        "volume": "01",
+        "id": "15",
+        "year": "2024",
+        "page":"23"
+    },
 ]
