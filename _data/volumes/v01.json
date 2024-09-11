@@ -151,7 +151,7 @@
         "page":"18"
     },
     {
-        "abstract": For regression tasks one often leverages large datasets for training predictive machine learning models. However, using large datasets may not be feasible due to computational limitations or high data labelling costs. Therefore, suitably selecting small training sets from large pools of unlabelled data points is essential to maximize model performance while maintaining efficiency. In this work, we study Farthest Point Sampling (FPS), a data selection approach that aims to minimize the fill distance of the selected set. We derive an upper bound for the maximum expected prediction error, conditional to the location of the unlabelled data points, that linearly depends on the training set fill distance. For empirical validation, we perform experiments using two regression models on three datasets. We empirically show that selecting a training set by aiming to minimize the fill distance, thereby minimizing our derived bound, significantly reduces the maximum prediction error of various regression models, outperforming alternative sampling approaches by a large margin. Furthermore, we show that selecting training sets with the FPS can also increase model stability for the specific case of Gaussian kernel regression approaches.,
+        "abstract": "For regression tasks one often leverages large datasets for training predictive machine learning models. However, using large datasets may not be feasible due to computational limitations or high data labelling costs. Therefore, suitably selecting small training sets from large pools of unlabelled data points is essential to maximize model performance while maintaining efficiency. In this work, we study Farthest Point Sampling (FPS), a data selection approach that aims to minimize the fill distance of the selected set. We derive an upper bound for the maximum expected prediction error, conditional to the location of the unlabelled data points, that linearly depends on the training set fill distance. For empirical validation, we perform experiments using two regression models on three datasets. We empirically show that selecting a training set by aiming to minimize the fill distance, thereby minimizing our derived bound, significantly reduces the maximum prediction error of various regression models, outperforming alternative sampling approaches by a large margin. Furthermore, we show that selecting training sets with the FPS can also increase model stability for the specific case of Gaussian kernel regression approaches.",
         "authors": [
             "Paolo Climaco", "Jochen Garcke"
         ],
@@ -162,13 +162,35 @@
         "page":"36"
     },
     {
-        "abstract":  There is a significant relevance of federated learning (FL) in the realm of Artificial Intelligence of Things (AIoT). However, most of existing FL works are not conducted on datasets collected from authentic IoT devices that capture unique modalities and inherent challenges of IoT data. To fill this critical gap, in this work, we introduce FedAIoT, an FL benchmark for AIoT. FedAIoT includes eight datasets collected from a wide range of IoT devices. These datasets cover unique IoT modalities and target representative applications of AIoT. FedAIoT also includes a unified end-to-end FL framework for AIoT that simplifies benchmarking the performance of the datasets. Our benchmark results shed light on the opportunities and challenges of FL for AIoT. We hope FedAIoT could serve as an invaluable resource to foster advancements in the important field of FL for AIoT. The repository of FedAIoT is maintained at https://github.com/AIoT-MLSys-Lab/FedAIoT.,
+        "abstract": "There is a significant relevance of federated learning (FL) in the realm of Artificial Intelligence of Things (AIoT). However, most of existing FL works are not conducted on datasets collected from authentic IoT devices that capture unique modalities and inherent challenges of IoT data. To fill this critical gap, in this work, we introduce FedAIoT, an FL benchmark for AIoT. FedAIoT includes eight datasets collected from a wide range of IoT devices. These datasets cover unique IoT modalities and target representative applications of AIoT. FedAIoT also includes a unified end-to-end FL framework for AIoT that simplifies benchmarking the performance of the datasets. Our benchmark results shed light on the opportunities and challenges of FL for AIoT. We hope FedAIoT could serve as an invaluable resource to foster advancements in the important field of FL for AIoT. The repository of FedAIoT is maintained at https://github.com/AIoT-MLSys-Lab/FedAIoT.",
         "authors": [
             "Samiul Alam", "Tuo Zhang", "Tiantian Feng", "Hui Shen", "Zhichao Cao", "Dong Zhao", "Jeonggil Ko", "Kiran Somasundaram", "Shrikanth Narayanan", "Salman Avestimehr", "Mi Zhang" 
         ],
         "title": "FedAIoT: A Federated Learning Benchmark for Artificial Intelligence of Things",
         "volume": "01",
         "id": "15",
+        "year": "2024",
+        "page":"23"
+    },
+    {
+        "abstract": "The transportation sector is a major contributor to greenhouse gas emissions in Europe. Shifting to electric vehicles (EVs) powered by a low-carbon energy mix could reduce carbon emissions. To support electric mobility, a better understanding of EV charging behaviours at different spatial and temporal resolutions is required, resulting in more accurate forecasting models. For instance, it would help users getting real-time parking recommendations, networks operators planning maintenance schedules, and investors deciding where to build new stations. In this context, the Smarter Mobility Data Challenge has focused on the development of forecasting models to predict EV charging station occupancy. This challenge involved analysing a dataset of 91 charging stations across four geographical areas over seven months in 2020-2021. The forecasts were evaluated at three spatial levels (individual stations, areas regrouping stations by neighborhoods and the global level of all the stations in Paris), thus capturing the different spatial information relevant to the various use cases. The results uncover meaningful patterns in EV usage and highlight the potential of this dataset to accurately predict EV charging behaviors. This open dataset addresses many real-world challenges associated with time series, such as missing values, non-stationarity and spatio-temporal correlations. Access to the dataset, code and benchmarks are available at \href{https://gitlab.com/smarter-mobility-data-challenge/tutorials}{https://gitlab.com/smarter-mobility-data-challenge/tutorials} to foster future research.",
+        "authors": [
+            "Yvenn Amara-Ouali", "Yannig Goude", "Nathan Doumèche", "Pascal Veyret", "Alexis Thomas", "Daniel Hebenstreit", "Thomas Wedenig", "Arthur Satouf", "Aymeric Jan", "Yannick Deleuze", "Paul Berhaut", "Sebastien Treguer"
+        ],
+        "title": "Forecasting Electric Vehicle Charging Station Occupancy: Smarter Mobility Data Challenge",
+        "volume": "01",
+        "id": "16",
+        "year": "2024",
+        "page":"27"
+    },
+    {
+        "abstract": "With the increasing deployment of machine learning models in many socially-sensitive tasks, there is a growing demand for reliable and trustworthy predictions. One way to accomplish these requirements is to allow a model to abstain from making a prediction when there is a high risk of making an error. This requires adding a selection mechanism to the model, which \emph{selects} those examples for which the model will provide a prediction. The selective classification framework aims to design a mechanism that balances the fraction of rejected predictions (i.e., the proportion of examples for which the model does not make a prediction) versus the improvement in predictive performance on the selected predictions. Multiple selective classification frameworks exist, most of which rely on deep neural network architectures. However, the empirical evaluation of the existing approaches is still limited to partial comparisons among methods and settings, providing practitioners with little insight into their relative merits. We fill this gap by benchmarking 18 baselines on a diverse set of 44 datasets that includes both image and tabular data.  Moreover, there is a mix of binary and multiclass tasks. We evaluate these approaches using several criteria, including selective error rate, empirical coverage, distribution of rejected instance's classes, and performance on out-of-distribution instances. The results indicate that there is not a single clear winner among the surveyed baselines, and the best method depends on the users' objectives.",
+        "authors": [
+            "Andrea Pugnana", "Lorenzo Perini", "Jesse Davis", "Salvatore Ruggieri" 
+        ],
+        "title": "Deep Neural Network Benchmarks for Selective Classification",
+        "volume": "01",
+        "id": "17",
         "year": "2024",
         "page":"23"
     },
