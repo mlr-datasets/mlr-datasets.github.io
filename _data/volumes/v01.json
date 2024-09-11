@@ -173,7 +173,7 @@
         "page":"23"
     },
     {
-        "abstract": "The transportation sector is a major contributor to greenhouse gas emissions in Europe. Shifting to electric vehicles (EVs) powered by a low-carbon energy mix could reduce carbon emissions. To support electric mobility, a better understanding of EV charging behaviours at different spatial and temporal resolutions is required, resulting in more accurate forecasting models. For instance, it would help users getting real-time parking recommendations, networks operators planning maintenance schedules, and investors deciding where to build new stations. In this context, the Smarter Mobility Data Challenge has focused on the development of forecasting models to predict EV charging station occupancy. This challenge involved analysing a dataset of 91 charging stations across four geographical areas over seven months in 2020-2021. The forecasts were evaluated at three spatial levels (individual stations, areas regrouping stations by neighborhoods and the global level of all the stations in Paris), thus capturing the different spatial information relevant to the various use cases. The results uncover meaningful patterns in EV usage and highlight the potential of this dataset to accurately predict EV charging behaviors. This open dataset addresses many real-world challenges associated with time series, such as missing values, non-stationarity and spatio-temporal correlations. Access to the dataset, code and benchmarks are available at \href{https://gitlab.com/smarter-mobility-data-challenge/tutorials}{https://gitlab.com/smarter-mobility-data-challenge/tutorials} to foster future research.",
+        "abstract": "The transportation sector is a major contributor to greenhouse gas emissions in Europe. Shifting to electric vehicles (EVs) powered by a low-carbon energy mix could reduce carbon emissions. To support electric mobility, a better understanding of EV charging behaviours at different spatial and temporal resolutions is required, resulting in more accurate forecasting models. For instance, it would help users getting real-time parking recommendations, networks operators planning maintenance schedules, and investors deciding where to build new stations. In this context, the Smarter Mobility Data Challenge has focused on the development of forecasting models to predict EV charging station occupancy. This challenge involved analysing a dataset of 91 charging stations across four geographical areas over seven months in 2020-2021. The forecasts were evaluated at three spatial levels (individual stations, areas regrouping stations by neighborhoods and the global level of all the stations in Paris), thus capturing the different spatial information relevant to the various use cases. The results uncover meaningful patterns in EV usage and highlight the potential of this dataset to accurately predict EV charging behaviors. This open dataset addresses many real-world challenges associated with time series, such as missing values, non-stationarity and spatio-temporal correlations. Access to the dataset, code and benchmarks are available at https://gitlab.com/smarter-mobility-data-challenge/tutorials to foster future research.",        
         "authors": [
             "Yvenn Amara-Ouali", "Yannig Goude", "Nathan Doumèche", "Pascal Veyret", "Alexis Thomas", "Daniel Hebenstreit", "Thomas Wedenig", "Arthur Satouf", "Aymeric Jan", "Yannick Deleuze", "Paul Berhaut", "Sebastien Treguer"
         ],
@@ -192,6 +192,17 @@
         "volume": "01",
         "id": "17",
         "year": "2024",
-        "page":"23"
+        "page":"58"
+    },
+    {
+        "abstract": "With the increasing deployment of machine learning models in many socially-sensitive tasks, there is a growing demand for reliable and trustworthy predictions. One way to accomplish these requirements is to allow a model to abstain from making a prediction when there is a high risk of making an error. This requires adding a selection mechanism to the model, which \emph{selects} those examples for which the model will provide a prediction. The selective classification framework aims to design a mechanism that balances the fraction of rejected predictions (i.e., the proportion of examples for which the model does not make a prediction) versus the improvement in predictive performance on the selected predictions. Multiple selective classification frameworks exist, most of which rely on deep neural network architectures. However, the empirical evaluation of the existing approaches is still limited to partial comparisons among methods and settings, providing practitioners with little insight into their relative merits. We fill this gap by benchmarking 18 baselines on a diverse set of 44 datasets that includes both image and tabular data.  Moreover, there is a mix of binary and multiclass tasks. We evaluate these approaches using several criteria, including selective error rate, empirical coverage, distribution of rejected instance's classes, and performance on out-of-distribution instances. The results indicate that there is not a single clear winner among the surveyed baselines, and the best method depends on the users' objectives.",
+        "authors": [
+            "Andrea Pugnana", "Lorenzo Perini", "Jesse Davis", "Salvatore Ruggieri" 
+        ],
+        "title": "Deep Neural Network Benchmarks for Selective Classification",
+        "volume": "01",
+        "id": "18",
+        "year": "2024",
+        "page":"58"
     },
 ]
