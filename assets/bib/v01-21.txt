@@ -1,0 +1,10 @@
+@article{
+chen2024on,
+title={On Catastrophic Inheritance of Large Foundation Models},
+author={Hao Chen and Bhiksha Raj and Xing Xie and Jindong Wang},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2024},
+url={https://openreview.net/forum?id=fONi0rnjLE},
+note={Survey Certification}
+}
