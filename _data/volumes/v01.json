@@ -194,4 +194,59 @@
         "year": "2024",
         "page":"58"
     },
+    {
+        "abstract": "Adversarial attacks by malicious actors on machine learning systems, such as introducing poison triggers into training datasets, pose significant risks. The challenge in resolving such an attack arises in practice when only a subset of the poisoned data can be identified. This necessitates the development of methods to remove, i.e. unlearn, poison triggers from already trained models with only a subset of the poison data available. The requirements for this task significantly deviate from privacy-focused unlearning where all of the data to be forgotten by the model is known. Previous work has shown that the undiscovered poisoned samples lead to a failure of established unlearning methods, with only one method, Selective Synaptic Dampening (SSD), showing limited success. Even full retraining, after the removal of the identified poison, cannot address this challenge as the undiscovered poison samples lead to a reintroduction of the poison trigger in the model. Our work addresses two key challenges to advance the state of the art in poison unlearning. First, we introduce a novel outlier-resistant method, based on SSD, that significantly improves model protection and unlearning performance. Second, we introduce Poison Trigger Neutralisation (PTN) search, a fast, parallelisable, hyperparameter search that utilises the characteristic "unlearning versus model protection" trade-off to find suitable hyperparameters in settings where the forget set size is unknown and the retain set is contaminated. We benchmark our contributions using ResNet-9 on CIFAR10 and WideResNet-28x10 on CIFAR100 with 0.2%, 1%, and 2% of the data poisoned and discovery shares ranging from a single sample to 100%. Experimental results show that our method heals 93.72% of poison compared to SSD with 83.41% and full retraining with 40.68%. We achieve this while also lowering the average model accuracy drop caused by unlearning from 5.68% (SSD) to 1.41% (ours).  We further show the generalisation capabilities of our method on additional poison types with a Vision Transformer and a significantly larger dataset using ILSVRC Imagenet.",
+        "authors": [
+            "Stefan Schoepf", "Jack Foster", "Alexandra Brintrup" 
+        ],
+        "title": "Potion: Towards Poison Unlearning",
+        "volume": "01",
+        "id": "18",
+        "year": "2024",
+        "page":"31"
+    },
+    {
+        "abstract": "Code is increasingly becoming a core data modality of modern machine learning research impacting not only the way we write codewith conversational agents like OpenAI's ChatGPT, Google's Bard, or Anthropic's Claude, the way we translate code from one languageinto another, but also the compiler infrastructure underlying the language. While modeling approaches may vary and representations differ,the targeted tasks often remain the same within the individual classes of models. Yet, relying solely on the ability of modern models to extractinformation from unstructured code does not take advantage of 70 years of programming language and compiler development by not utilizing the structure inherent to programs in the data collection. This detracts from the performance of models working over a tokenized representation of input code and precludes the use of these models in the compiler itself. To work towards the first intermediaterepresentation (IR) based models, we fully utilize the LLVM compiler infrastructure, shared by a number of languages, to generatea T Llama 2 token dataset of LLVM IR. We generated this dataset from programming languages built on the shared LLVMinfrastructure, including Rust, Swift, Julia, and C/C++, by hooking into LLVM code generation either through the language's packagemanager or the compiler directly to extract the dataset of intermediate representations from production grade programs.Statistical analysis proves the utility of our dataset not only for large language model training, but also for the introspection into the code generation process itself as well as for training of machine-learned compiler components.",
+        "authors": [
+            "Aiden Grossman", "Ludger Paehler", "Konstantinos Parasyris", "Tal Ben-Nun", "Jacob Hegna", "William S. Moses", "Jose M Monsalve Diaz", "Mircea Trofin", "Johannes Doerfert"
+        ],
+        "title": "ComPile: A Large IR Dataset from Production Sources",
+        "volume": "01",
+        "id": "19",
+        "year": "2024",
+        "page":"33"
+    },
+    {
+        "abstract": "Benchmark datasets and task definitions in temporal graph learning are limited to dynamic node classification and future link prediction. In this paper, we consider the task of edge regression on temporal graphs, where the data is constructed from sequence of interactions between entities. Upon investigating graph benchmarking platforms, we observed that the existing open source datasets do not provide the necessary information to construct temporal edge regression tasks. To address this gap, we propose four datasets that naturally lend themselves to meaningful temporal edge regression tasks. We evaluate the performance of a set of method based on popular graph learning algorithms in addition to simple baselines such as vertex-based moving average. Processed versions of proposed datasets are accessible through this repository: huggingface.co/cash-app-inc.",
+        "authors": [
+            "Muberra Ozmen", "Florence Regol", "Thomas Markovich"
+        ],
+        "title": "Benchmarking Edge Regression on Temporal NetworksComPile: A Large IR Dataset from Production Sources",
+        "volume": "01",
+        "id": "20",
+        "year": "2024",
+        "page":"28"
+    },
+    {
+        "abstract": "Large foundation models (LFMs) are claiming incredible performances. Yet great concerns have been raised about their mythic and uninterpreted potentials not only in machine learning, but also in various other disciplines. In this position paper, we propose to identify a neglected issue deeply rooted in LFMs: Catastrophic Inheritance, describing the weaknesses and limitations inherited from biased large-scale pre-training data to behaviors of LFMs on the downstream tasks, including samples that are corrupted, long-tailed, noisy, out-of-distributed, to name a few. Such inheritance can potentially cause catastrophes to downstream applications, such as bias, lack of generalization, deteriorated performance, security vulnerability, privacy leakage, and value misalignment. We discuss the challenges behind this issue and propose ``UIM'', a framework to understand the catastrophic inheritance of LFMs from both pre-training and downstream adaptation, interpret the implications of catastrophic inheritance on downstream tasks, and how to mitigate it. UIM aims to unite both the machine learning and social sciences communities for more responsible and promising AI development and deployment.",
+        "authors": [
+            "Hao Chen", "Bhiksha Raj", "Xing Xie", "Jindong Wang"
+        ],
+        "title": "On Catastrophic Inheritance of Large Foundation Models",
+        "volume": "01",
+        "id": "21",
+        "year": "2024",
+        "page":"33"
+    },
+    {
+        "abstract": "Evaluating the value of a hypothetical target policy with only a logged dataset is important but challenging. On the one hand, it brings opportunities for safe policy improvement under high-stakes scenarios like clinical guidelines. On the other hand, such opportunities raise a need for precise off-policy evaluation (OPE). While previous work on OPE focused on improving the algorithm in value estimation, in this work, we emphasize the importance of the offline dataset, hence putting forward a data-centric framework for evaluating OPE problems.We propose DataCOPE, a data-centric framework for evaluating OPE in the logged contextual bandit setting, that answers the questions of whether and to what extent we can evaluate a target policy given a dataset. DataCOPE(1) forecasts the overall performance of OPE algorithms without access to the environment, which is especially useful before real-world deployment where evaluating OPE is impossible;(2) identifies the sub-group in the dataset where OPE can be inaccurate;(3) permits evaluations of datasets or data-collection strategies for OPE problems.Our empirical analysis of DataCOPE in the logged contextual bandit settings using healthcare datasets confirms its ability to evaluate both machine-learning and human expert policies like clinical guidelines.Finally, we apply DataCOPE to the task of reward modeling in Large Language Model alignment to demonstrate its scalability in real-world applications.",
+        "authors": [
+            "Hao Sun", "Alex James Chan", "Nabeel Seedat", "Alihan Hüyük", "Mihaela van der Schaar "
+        ],
+        "title": "When is Off-Policy Evaluation (Reward Modeling) Useful in Contextual Bandits? A Data-Centric Perspective",
+        "volume": "01",
+        "id": "22",
+        "year": "2024",
+        "page":"36"
+    },
 ]
