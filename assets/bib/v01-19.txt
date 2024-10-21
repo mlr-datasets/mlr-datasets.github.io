@@ -1,0 +1,10 @@
+@article{
+grossman2024compile,
+title={ComPile: A Large {IR} Dataset from Production Sources},
+author={Aiden Grossman and Ludger Paehler and Konstantinos Parasyris and Tal Ben-Nun and Jacob Hegna and William S. Moses and Jose M Monsalve Diaz and Mircea Trofin and Johannes Doerfert},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2024},
+url={https://openreview.net/forum?id=iO9azp1LjQ},
+note={Dataset Certification}
+}
