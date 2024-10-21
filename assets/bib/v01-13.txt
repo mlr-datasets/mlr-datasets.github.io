@@ -3,8 +3,6 @@ saha2024valued,
 title={{VALUED} - Vision and Logical Understanding Evaluation Dataset},
 author={Soumadeep Saha and Saptarshi Saha and Utpal Garain},
 journal={Journal of Data-centric Machine Learning Research},
-issn={XXXX-XXXX},
 year={2024},
-url={https://openreview.net/forum?id=nS9oxKyy9u},
-note={}
+url={https://openreview.net/forum?id=nS9oxKyy9u}
 }
