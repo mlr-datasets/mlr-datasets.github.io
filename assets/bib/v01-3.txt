@@ -3,8 +3,6 @@ matsubara2024rethinking,
 title={Rethinking Symbolic Regression Datasets and Benchmarks for Scientific Discovery},
 author={Yoshitomo Matsubara and Naoya Chiba and Ryo Igarashi and Yoshitaka Ushiku},
 journal={Journal of Data-centric Machine Learning Research},
-issn={XXXX-XXXX},
 year={2024},
-url={https://openreview.net/forum?id=qrUdrXsiXX},
-note={}
+url={https://openreview.net/forum?id=qrUdrXsiXX}
 }
