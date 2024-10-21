@@ -3,8 +3,6 @@ ozmen2024benchmarking,
 title={Benchmarking Edge Regression on Temporal Networks},
 author={Muberra Ozmen and Florence Regol and Thomas Markovich},
 journal={Journal of Data-centric Machine Learning Research},
-issn={XXXX-XXXX},
 year={2024},
-url={https://openreview.net/forum?id=4k4cocpuSw},
-note={Dataset Certification, Reproducibility Certification}
+url={https://openreview.net/forum?id=4k4cocpuSw}
 }
