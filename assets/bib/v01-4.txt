@@ -3,8 +3,6 @@ luccioni2024the,
 title={The Nine Lives of ImageNet: A Sociotechnical Retrospective of a Foundation Dataset and the Limits of Automated Essentialism},
 author={Sasha Luccioni and Kate Crawford},
 journal={Journal of Data-centric Machine Learning Research},
-issn={XXXX-XXXX},
 year={2024},
-url={https://openreview.net/forum?id=jh0ck1bPGF},
-note={Survey Certification}
+url={https://openreview.net/forum?id=jh0ck1bPGF}
 }
