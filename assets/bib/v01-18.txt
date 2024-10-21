@@ -3,8 +3,6 @@ schoepf2024potion,
 title={Potion: Towards Poison Unlearning},
 author={Stefan Schoepf and Jack Foster and Alexandra Brintrup},
 journal={Journal of Data-centric Machine Learning Research},
-issn={XXXX-XXXX},
 year={2024},
-url={https://openreview.net/forum?id=4eSiRnWWaF},
-note={}
+url={https://openreview.net/forum?id=4eSiRnWWaF}
 }
