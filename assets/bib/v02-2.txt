@@ -1,4 +1,5 @@
-@article{lee2024properties,
+@article{
+lee2024properties,
 title={Properties of Alternative Data for Fairer Credit Risk Predictions},
 author={Jung Youn Lee and Joonhyuk Yang},
 journal={Journal of Data-centric Machine Learning Research},
