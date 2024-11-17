@@ -1,6 +1,6 @@
 @article{
 zhang2024openood,
-title={Open{OOD} v1.5: Enhanced Benchmark for Out-of-Distribution Detection},
+title={OpenOOD v1.5: Enhanced Benchmark for Out-of-Distribution Detection},
 author={Jingyang Zhang and Jingkang Yang and Pengyun Wang and Haoqi Wang and Yueqian Lin and Haoran Zhang and Yiyou Sun and Xuefeng Du and Yixuan Li and Ziwei Liu and Yiran Chen and Hai Li},
 journal={Journal of Data-centric Machine Learning Research},
 year={2024},
