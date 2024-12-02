@@ -5,8 +5,16 @@ title: Accepted Papers
 
 {{content}}
 
+{% if page.name == "Volume 1" %}
+{% assign paper_list = site.data.volumes.v01 %}
+{% elsif page.name == "Volume 2" %}
+{% assign paper_list = site.data.volumes.v02 %}
+{% else %}
+{% assign paper_list = "" %}
+{% endif %}
+
 <ul class="list-papers list-group list-group-flush">
-    {% for article in site.data.volumes.v02 %}
+    {% for article in paper_list %}
     <li class="list-group-item">
       <dl></dl>
       <dt>
