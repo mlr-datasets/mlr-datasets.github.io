@@ -1,0 +1,9 @@
+@article{
+chen2025data,
+title={Data Acquisition: A New Frontier in Data-centric {AI}},
+author={Lingjiao Chen and Bilge Acun and Newsha Ardalani and Yifan Sun and Feiyang Kang and Hanrui Lyu and Yongchan Kwon and Ruoxi Jia and Carole-Jean Wu and Matei Zaharia and James Zou},
+journal={Journal of Data-centric Machine Learning Research},
+year={2025},
+url={https://openreview.net/forum?id=5ARbfIHxtk},
+note={}
+}
