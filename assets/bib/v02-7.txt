@@ -1,0 +1,9 @@
+@article{
+rousseau2025towards,
+title={Towards impactful challenges: post-challenge paper, benchmarks and other dissemination actions},
+author={David Rousseau and Antoine Marot and Zhen Xu},
+journal={Journal of Data-centric Machine Learning Research},
+year={2025},
+url={https://openreview.net/forum?id=AAqyNe12di},
+note={}
+}
