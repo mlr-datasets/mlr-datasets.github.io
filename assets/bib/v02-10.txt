@@ -1,0 +1,9 @@
+@article{
+escalante2025challenge,
+title={Challenge design roadmap},
+author={Hugo Jair Escalante and Isabelle Guyon and Addison Howard and Walter Reade and Sebastien Treguer},
+journal={Journal of Data-centric Machine Learning Research},
+year={2025},
+url={https://openreview.net/forum?id=SUFQ3e3fHr},
+note={}
+}
