@@ -1,0 +1,9 @@
+@article{
+yang2025deep,
+title={Deep Learning for Accurate Diagnosis of Viral Infections through sc{RNA}-seq Analysis: A Comprehensive Benchmark Study},
+author={Ziwei Yang and Xuxi Chen and Biqing Zhu and Tianlong Chen and Zhangyang Wang},
+journal={Journal of Data-centric Machine Learning Research},
+year={2025},
+url={https://openreview.net/forum?id=wlH6Np0Um0},
+note={}
+}
