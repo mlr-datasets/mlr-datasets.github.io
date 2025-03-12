@@ -1,0 +1,9 @@
+@article{
+schulz-k{\"u}mpel2025constructing,
+title={Constructing Confidence Intervals for {\textquotedblleft}the{\textquotedblright} Generalization Error {\textendash} a Comprehensive Benchmark Study},
+author={Hannah Schulz-K{\"u}mpel and Sebastian Felix Fischer and Roman Hornung and Anne-Laure Boulesteix and Thomas Nagler and Bernd Bischl},
+journal={Journal of Data-centric Machine Learning Research},
+year={2025},
+url={https://openreview.net/forum?id=x7kCj9OU2c},
+note={Reproducibility Certification}
+}
