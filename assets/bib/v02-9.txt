@@ -1,0 +1,9 @@
+@article{
+helff2025vlol,
+title={V-LoL: A Diagnostic Dataset for Visual Logical Learning},
+author={Lukas Helff and Wolfgang Stammer and Hikaru Shindo and Devendra Singh Dhami and Kristian Kersting},
+journal={Journal of Data-centric Machine Learning Research},
+year={2025},
+url={https://openreview.net/forum?id=IkbFIPiqFe},
+note={}
+}
