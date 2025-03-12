@@ -1,0 +1,9 @@
+@article{
+ren2025superbench,
+title={SuperBench: A Super-Resolution Benchmark Dataset for Scientific Machine Learning},
+author={Pu Ren and N. Benjamin Erichson and Junyi Guo and Shashank Subramanian and Omer San and Zarija Lukic and Michael W. Mahoney},
+journal={Journal of Data-centric Machine Learning Research},
+year={2025},
+url={https://openreview.net/forum?id=OJ6zUcWldW},
+note={Dataset Certification, Reproducibility Certification}
+}
