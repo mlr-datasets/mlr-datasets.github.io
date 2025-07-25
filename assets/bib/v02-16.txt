@@ -1,0 +1,8 @@
+@article{
+schultze2025chronicling,
+title={Chronicling Germany: An Annotated Historical Newspaper Dataset},
+author={Christian Schultze and Niklas Kerkfeld and Kara Kuebart and Princilia Weber and Moritz Wolter and Felix Selgert},
+journal={Journal of Data-centric Machine Learning Research},
+year={2025},
+url={https://openreview.net/forum?id=YHDfqvtye9}
+}
