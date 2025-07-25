@@ -1,0 +1,8 @@
+@article{
+tali2025flowbench,
+title={FlowBench: A Large Scale Benchmark for Flow Simulation over Complex Geometries},
+author={Ronak Tali and Ali Rabeh and Cheng-Hau Yang and Mehdi Shadkhah and Samundra Karki and Abhisek Upadhyaya and Suriya Dhakshinamoorthy and Marjan Saadati and Soumik Sarkar and Adarsh Krishnamurthy and Chinmay Hegde and Aditya Balu and Baskar Ganapathysubramanian},
+journal={Journal of Data-centric Machine Learning Research},
+year={2025},
+url={https://openreview.net/forum?id=0xrOmmB2KQ}
+}
