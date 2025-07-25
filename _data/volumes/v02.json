@@ -77,22 +77,22 @@
         "year": "2025"
     },
     {
-       "abstract": "The conclusion of an AI challenge is not the end of its lifecycle; ensuring a long-lasting impact requires meticulous post-challenge activities. The long-lasting impact also needs to be organised. This chapter covers the various activities after the challenge is formally finished. This work identifies target audiences for post-challenge initiatives and outlines methods for collecting and organizing challenge outputs. The multiple outputs of the challenge are listed, along with the means to collect them. The central part of the chapter is a template for a typical post-challenge paper, including possible graphs and advice on how to turn the challenge into a long-lasting benchmark.",
-       "authors": [
-            "David Rousseau", "Antoine Marot", "Zhen Xu" 
+       "abstract": "Super-resolution (SR) techniques aim to enhance data resolution, enabling the retrieval of finer details, and improving the overall quality and fidelity of the data representation. There is growing interest in applying SR methods to complex spatiotemporal systems within the Scientific Machine Learning (SciML) community, with the hope of accelerating numerical simulations and/or improving forecasts in weather, climate, and related areas. However, the lack of standardized benchmark datasets for comparing and validating SR methods hinders progress and adoption in SciML. To address this, we introduce SuperBench (https://github.com/erichson/SuperBench), the first benchmark dataset featuring high-resolution datasets (up to  dimensions), including data from fluid flows, cosmology, and weather. Here, we focus on validating spatial SR performance from data-centric and physics-preserved perspectives, as well as assessing robustness to data degradation tasks. While deep learning-based SR methods (developed in the computer vision community) excel on certain tasks, despite relatively limited prior physics information, we identify limitations of these methods in accurately capturing intricate fine-scale features and preserving fundamental physical properties and constraints in scientific data. These shortcomings highlight the importance and subtlety of incorporating domain knowledge into ML models. We anticipate that SuperBench will help to advance SR methods for science.",
+        "authors": [
+             "Pu Ren", "N. Benjamin Erichson", "Junyi Guo", "Shashank Subramanian", "Omer San", "Zarija Lukic", "Michael W. Mahoney"
         ],
-        "title": "Towards impactful challenges: post-challenge paper, benchmarks and other dissemination actions",
+        "title": "SuperBench: A Super-Resolution Benchmark Dataset for Scientific Machine Learning",
         "volume": "02",
         "id": "8",
-        "page": "20",
+        "page": "45",
         "year": "2025"
     },
     {
        "abstract": "The conclusion of an AI challenge is not the end of its lifecycle; ensuring a long-lasting impact requires meticulous post-challenge activities. The long-lasting impact also needs to be organised. This chapter covers the various activities after the challenge is formally finished. This work identifies target audiences for post-challenge initiatives and outlines methods for collecting and organizing challenge outputs. The multiple outputs of the challenge are listed, along with the means to collect them. The central part of the chapter is a template for a typical post-challenge paper, including possible graphs and advice on how to turn the challenge into a long-lasting benchmark.",
        "authors": [
-            "David Rousseau", "Antoine Marot", "Zhen Xu" 
+            "Pu Ren", "N. Benjamin Erichson", "Junyi Guo", "Shashank Subramanian", "Omer San", "Zarija Lukic", "Michael W. Mahoney"
         ],
-        "title": "Towards impactful challenges: post-challenge paper, benchmarks and other dissemination actions",
+        "title": "SuperBench: A Super-Resolution Benchmark Dataset for Scientific Machine Learning",
         "volume": "02",
         "id": "9",
         "page": "20",
