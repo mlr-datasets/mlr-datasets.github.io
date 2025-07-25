@@ -1,0 +1,8 @@
+@article{
+arndt2025synthetic,
+title={Synthetic Datasets for Machine Learning on Spatio-Temporal Graphs using {PDE}s},
+author={Jost Arndt and Utku Isil and Michael Detzel and Wojciech Samek and Jackie Ma},
+journal={Journal of Data-centric Machine Learning Research},
+year={2025},
+url={https://openreview.net/forum?id=EguDBMechn}
+}
