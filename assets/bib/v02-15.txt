@@ -1,0 +1,9 @@
+@article{
+dempster2025monster,
+title={{MONSTER}: Monash Scalable Time Series Evaluation Repository},
+author={Angus Dempster and Navid Mohammadi Foumani and Chang Wei Tan and Lynn Miller and Amish Mishra and Mahsa Salehi and Charlotte Pelletier and Daniel F. Schmidt and Geoffrey I. Webb},
+journal={Journal of Data-centric Machine Learning Research},
+year={2025},
+url={https://openreview.net/forum?id=XauSqSfZfc},
+note={Dataset Certification}
+}
