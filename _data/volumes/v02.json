@@ -143,58 +143,58 @@
         "year": "2025"
     },
     {
-       "abstract": "The conclusion of an AI challenge is not the end of its lifecycle; ensuring a long-lasting impact requires meticulous post-challenge activities. The long-lasting impact also needs to be organised. This chapter covers the various activities after the challenge is formally finished. This work identifies target audiences for post-challenge initiatives and outlines methods for collecting and organizing challenge outputs. The multiple outputs of the challenge are listed, along with the means to collect them. The central part of the chapter is a template for a typical post-challenge paper, including possible graphs and advice on how to turn the challenge into a long-lasting benchmark.",
+       "abstract": "Simulating fluid flow around arbitrary shapes is key to solving various engineering problems. However, simulating flow physics across complex geometries remains numerically challenging and computationally resource-intensive, particularly when using conventional PDE solvers. Machine learning methods offer attractive opportunities to create fast and adaptable PDE solvers. However, benchmark datasets to measure the performance of such methods are scarce, especially for flow physics across complex geometries. We introduce **FlowBench**, a dataset for neural simulators with over 10K samples, which is currently larger than any publicly available flow physics dataset. **FlowBench** contains flow simulation data across complex geometries (*parametric vs. non-parametric*), spanning a range of flow conditions (*Reynolds number and Grashoff number*), capturing a diverse array of flow phenomena (*steady vs. transient; forced vs. free convection*), and for both 2D and 3D. **FlowBench** contains over 10K data samples, with each sample the outcome of a fully resolved, direct numerical simulation using a well-validated simulator framework designed for modeling transport phenomena in complex geometries. For each sample, we include velocity, pressure, and temperature field data at 3 different resolutions and several summary statistics features of engineering relevance (such as coefficients of lift and drag, and Nusselt numbers). We envision that **FlowBench** will enable evaluating the interplay between complex geometry, coupled flow phenomena, and data sufficiency on the performance of current, and future, neural PDE solvers. We enumerate several evaluation metrics to help rank order the performance of current (and future) neural PDE solvers. We benchmark the performance of several methods, including Fourier Neural Operators (FNO), Convolutional Neural Operators (CNO), DeepONets, and recent foundational models. This dataset ([here](https://huggingface.co/datasets/BGLab/FlowBench/tree/main)) will be a valuable resource for developing and evaluating AI-for-science approaches, specifically neural PDE solvers, that model complex fluid dynamics around 2D and 3D objects.",
        "authors": [
-            "David Rousseau", "Antoine Marot", "Zhen Xu" 
+            "Ronak Tali", "Ali Rabeh", "Cheng-Hau Yang", "Mehdi Shadkhah", "Samundra Karki", "Abhisek Upadhyaya", "Suriya Dhakshinamoorthy", "Marjan Saadati", "Soumik Sarkar", "Adarsh Krishnamurthy", "Chinmay Hegde", "Aditya Balu", "Baskar Ganapathysubramanian" 
         ],
-        "title": "Towards impactful challenges: post-challenge paper, benchmarks and other dissemination actions",
+        "title": "FlowBench: A Large Scale Benchmark for Flow Simulation over Complex Geometries",
         "volume": "02",
         "id": "14",
-        "page": "20",
+        "page": "35",
         "year": "2025"
     },
     {
-       "abstract": "The conclusion of an AI challenge is not the end of its lifecycle; ensuring a long-lasting impact requires meticulous post-challenge activities. The long-lasting impact also needs to be organised. This chapter covers the various activities after the challenge is formally finished. This work identifies target audiences for post-challenge initiatives and outlines methods for collecting and organizing challenge outputs. The multiple outputs of the challenge are listed, along with the means to collect them. The central part of the chapter is a template for a typical post-challenge paper, including possible graphs and advice on how to turn the challenge into a long-lasting benchmark.",
+       "abstract": "We introduce MONSTER—the MONash Scalable Time Series Evaluation Repository—a collection of large datasets for time series classification and associated set of classification tasks that jointly define a new time series classification benchmark. The field of time series classification has benefitted from common benchmarks set by the UCR and UEA time series classification repositories. However, the datasets in these benchmarks are small, with median training set sizes of 217 and 255 examples, respectively. In consequence they favour a narrow subspace of models that are optimised to achieve low classification error on a wide variety of smaller datasets, that is, models that minimise variance, and give little weight to computational issues such as scalability. Our hope is to diversify the field by introducing benchmarks using larger datasets. We believe that there is enormous potential for new progress in the field by engaging with the theoretical and practical challenges of learning effectively from larger quantities of data.",
        "authors": [
-            "David Rousseau", "Antoine Marot", "Zhen Xu" 
+            "Angus Dempster", "Navid Mohammadi Foumani", "Chang Wei Tan", "Lynn Miller", "Amish Mishra", "Mahsa Salehi", "Charlotte Pelletier", "Daniel F. Schmidt", "Geoffrey I. Webb"
         ],
-        "title": "Towards impactful challenges: post-challenge paper, benchmarks and other dissemination actions",
+        "title": "MONSTER: Monash Scalable Time Series Evaluation Repository",
         "volume": "02",
         "id": "15",
-        "page": "20",
+        "page": "47",
         "year": "2025"
     },
     {
-       "abstract": "The conclusion of an AI challenge is not the end of its lifecycle; ensuring a long-lasting impact requires meticulous post-challenge activities. The long-lasting impact also needs to be organised. This chapter covers the various activities after the challenge is formally finished. This work identifies target audiences for post-challenge initiatives and outlines methods for collecting and organizing challenge outputs. The multiple outputs of the challenge are listed, along with the means to collect them. The central part of the chapter is a template for a typical post-challenge paper, including possible graphs and advice on how to turn the challenge into a long-lasting benchmark.",
+       "abstract": "The correct detection of dense article layout and the recognition of characters in historical newspaper pages remains a challenging requirement for Natural Language Processing (NLP) and machine learning applications in the field of digital history. Digital newspaper portals for historic Germany typically provide Optical Character Recognition (OCR) text, albeit of varying quality. Unfortunately, layout information is often missing, limiting this rich source’s scope. Our dataset is designed to enable the training of layout and OCR models for historic German-language newspapers. The Chronicling Germany dataset contains 801 annotated historical newspaper pages from the time period between 1617 and 1933. The paper presents a processing pipeline and establishes baseline results on in- and out-of-domain test data using this pipeline. Both our dataset and the corresponding baseline code are freely available online. This work creates a starting point for future research in the field of digital history and historic German language newspaper processing. Furthermore, it provides the opportunity to study a low-resource task in computer vision.",
        "authors": [
-            "David Rousseau", "Antoine Marot", "Zhen Xu" 
+            "Christian Schultze", "Niklas Kerkfeld", "Kara Kuebart", "Princilia Weber", "Moritz Wolter", "Felix Selgert"
         ],
-        "title": "Towards impactful challenges: post-challenge paper, benchmarks and other dissemination actions",
+        "title": "Chronicling Germany: An Annotated Historical Newspaper Dataset",
         "volume": "02",
         "id": "16",
-        "page": "20",
+        "page": "29",
         "year": "2025"
     },
     {
-       "abstract": "The conclusion of an AI challenge is not the end of its lifecycle; ensuring a long-lasting impact requires meticulous post-challenge activities. The long-lasting impact also needs to be organised. This chapter covers the various activities after the challenge is formally finished. This work identifies target audiences for post-challenge initiatives and outlines methods for collecting and organizing challenge outputs. The multiple outputs of the challenge are listed, along with the means to collect them. The central part of the chapter is a template for a typical post-challenge paper, including possible graphs and advice on how to turn the challenge into a long-lasting benchmark.",
-       "authors": [
-            "David Rousseau", "Antoine Marot", "Zhen Xu" 
+       "abstract": "Feature-based methods are commonly used to explain model predictions, but these methods often implicitly assume that interpretable features are readily available. However, this is often not the case for high-dimensional data, and it can be hard even for domain experts to mathematically specify which features are important. Can we instead automatically extract collections or groups of features that are aligned with expert knowledge? To address this gap, we present FIX (Features Interpretable to eXperts), a benchmark for measuring how well a collection of features aligns with expert knowledge. In collaboration with domain experts, we propose FIXScore, a unified expert alignment measure applicable to diverse real-world settings across cosmology, psychology, and medicine domains in vision, language, and time series data modalities. With FIXScore, we find that popular feature-based explanation methods have poor alignment with expert-specified knowledge, highlighting the need for new methods that can better identify features interpretable to experts.",
+        "authors": [
+            "Helen Jin", "Shreya Havaldar", "Chaehyeon Kim", "Anton Xue", "Weiqiu You", "Helen Qu", "Marco Gatti", "Daniel A Hashimoto", "Bhuvnesh Jain", "Amin Madani", "Masao Sako", "Lyle Ungar", "Eric Wong" 
         ],
-        "title": "Towards impactful challenges: post-challenge paper, benchmarks and other dissemination actions",
+        "title": "The FIX Benchmark: Extracting Features Interpretable to eXperts",
         "volume": "02",
         "id": "17",
-        "page": "20",
+        "page": "43",
         "year": "2025"
     },
     {
-       "abstract": "The conclusion of an AI challenge is not the end of its lifecycle; ensuring a long-lasting impact requires meticulous post-challenge activities. The long-lasting impact also needs to be organised. This chapter covers the various activities after the challenge is formally finished. This work identifies target audiences for post-challenge initiatives and outlines methods for collecting and organizing challenge outputs. The multiple outputs of the challenge are listed, along with the means to collect them. The central part of the chapter is a template for a typical post-challenge paper, including possible graphs and advice on how to turn the challenge into a long-lasting benchmark.",
+       "abstract": "Many physical processes can be expressed through partial differential equations (PDEs).Real-world measurements of such processes are often collected at irregularly distributedpoints in space, which can be effectively represented as graphs; however, there are currentlyonly a few existing datasets. Our work aims to make advancements in the field ofPDE-modeling accessible to the temporal graph machine learning community, while addressingthe data scarcity problem, by creating and utilizing datasets based on PDEs. Inthis work, we create and use synthetic datasets based on PDEs to support spatio-temporalgraph modeling in machine learning for different applications. More precisely, we showcasethree equations to model different types of disasters and hazards in the fields of epidemiology,atmospheric particles, and tsunami waves. Further, we show how such createddatasets can be used by benchmarking several machine learning models on the epidemiologicaldataset. Additionally, we show how pre-training on this dataset can improve modelperformance on real-world epidemiological data. The presented methods enable others tocreate datasets and benchmarks customized to individual requirements. The source codefor our methodology and the three created datasets can be found on github.com/Jostarndt/Synthetic_Datasets_for_Temporal_Graphs.",
        "authors": [
-            "David Rousseau", "Antoine Marot", "Zhen Xu" 
+            "Jost Arndt", "Utku Isil", "Michael Detzel", "Wojciech Samek", "Jackie Ma"
         ],
-        "title": "Towards impactful challenges: post-challenge paper, benchmarks and other dissemination actions",
+        "title": "Synthetic Datasets for Machine Learning on Spatio-Temporal Graphs using PDEs",
         "volume": "02",
         "id": "18",
-        "page": "20",
+        "page": "36",
         "year": "2025"
     }
 ]
