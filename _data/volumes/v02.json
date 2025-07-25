@@ -99,47 +99,47 @@
         "year": "2025"
     },
     {
-       "abstract": "The conclusion of an AI challenge is not the end of its lifecycle; ensuring a long-lasting impact requires meticulous post-challenge activities. The long-lasting impact also needs to be organised. This chapter covers the various activities after the challenge is formally finished. This work identifies target audiences for post-challenge initiatives and outlines methods for collecting and organizing challenge outputs. The multiple outputs of the challenge are listed, along with the means to collect them. The central part of the chapter is a template for a typical post-challenge paper, including possible graphs and advice on how to turn the challenge into a long-lasting benchmark.",
+       "abstract": "This document serves as a comprehensive guide for designing and organizing effective challenges, particularly within the domains of machine learning and artificial intelligence. It provides detailed guidelines on every phase of the process, from conception and execution to post-challenge analysis. Challenges function as motivational mechanisms that drive participants to address significant tasks. Consequently, organizers must establish rules that fulfill objectives beyond mere participant engagement. These objectives include solving real-world problems, advancing scientific or technical fields, facilitating discoveries, educating the public, providing platforms for skill development, and recruiting new talent. The creation of a challenge is analogous to product development; it requires enthusiasm, rigorous testing, and aims to attract participants. The process commences with a comprehensive plan, such as a challenge proposal submitted for peer review at an international conference. This document presents guidelines for developing such a robust challenge plan, ensuring it is both engaging and impactful.",
        "authors": [
-            "David Rousseau", "Antoine Marot", "Zhen Xu" 
+            "Hugo Jair Escalante", "Isabelle Guyon", "Addison Howard", "Walter Reade", "Sebastien Treguer" 
         ],
-        "title": "Towards impactful challenges: post-challenge paper, benchmarks and other dissemination actions",
+        "title": "Challenge design roadmap",
         "volume": "02",
         "id": "10",
-        "page": "20",
+        "page": "42",
         "year": "2025"
     },
     {
-       "abstract": "The conclusion of an AI challenge is not the end of its lifecycle; ensuring a long-lasting impact requires meticulous post-challenge activities. The long-lasting impact also needs to be organised. This chapter covers the various activities after the challenge is formally finished. This work identifies target audiences for post-challenge initiatives and outlines methods for collecting and organizing challenge outputs. The multiple outputs of the challenge are listed, along with the means to collect them. The central part of the chapter is a template for a typical post-challenge paper, including possible graphs and advice on how to turn the challenge into a long-lasting benchmark.",
-       "authors": [
-            "David Rousseau", "Antoine Marot", "Zhen Xu" 
+       "abstract": "As Machine Learning (ML) systems continue to grow, the demand for relevant and comprehensive datasets becomes imperative. There is limited study on the challenges of data acquisition due to ad-hoc processes and lack of consistent methodologies. We first present an investigation of current data marketplaces, revealing lack of platforms offering detailed information about datasets, transparent pricing, standardized data formats. With the objective of inciting participation from the data-centric AI community, we then introduce the DAM challenge, a benchmark to model the interaction between the data providers and acquirers in a data marketplace. The benchmark was released as a part of DataPerf Mazumder et al. (2022). Our evaluation of the submitted strategies underlines the need for effective data acquisition strategies in ML.",
+        "authors": [
+            "Lingjiao Chen", "Bilge Acun", "Newsha Ardalani", "Yifan Sun", "Feiyang Kang", "Hanrui Lyu", "Yongchan Kwon", "Ruoxi Jia", "Carole-Jean Wu", "Matei Zaharia", "James Zou"
         ],
-        "title": "Towards impactful challenges: post-challenge paper, benchmarks and other dissemination actions",
+        "title": "Data Acquisition: A New Frontier in Data-centric AI",
         "volume": "02",
         "id": "11",
-        "page": "20",
+        "page": "19",
         "year": "2025"
     },
     {
-       "abstract": "The conclusion of an AI challenge is not the end of its lifecycle; ensuring a long-lasting impact requires meticulous post-challenge activities. The long-lasting impact also needs to be organised. This chapter covers the various activities after the challenge is formally finished. This work identifies target audiences for post-challenge initiatives and outlines methods for collecting and organizing challenge outputs. The multiple outputs of the challenge are listed, along with the means to collect them. The central part of the chapter is a template for a typical post-challenge paper, including possible graphs and advice on how to turn the challenge into a long-lasting benchmark.",
+       "abstract": "Infectious disease diagnostics primarily rely on physicians' clinical expertise and rapid antigen/antibody tests, a subjective approach prone to errors due to various factors including patient history accuracy and physician experience. To address these challenges, we propose a biological evidence-based diagnostic tool using deep learning to analyze patient-derived single-cell RNA sequencing (scRNA-seq) profiles from blood samples. scRNA-seq provides high-resolution gene expression data at the single-cell level, capturing unique transcriptional signatures and immunological responses induced by different viral infections. In this work, we conducted the first-of-its-kind benchmark study to evaluate five computational models, including four deep learning-based methods (contrastiveVI, scVI, SAVER, scGPT) and PCA as a baseline - trained and evaluated on patient-derived scRNA-seq datasets carefully sourced by us. We assess their efficacy in distinguishing scRNA-seq profiles associated with various viral infections, aiming to identify distinct immunological features representative of each infection. The results demonstrate that contrastiveVI, outperforms other models in all key performance metrics and the visual cluster performance. Furthermore, our research also underscores the substantial influence of batch effects when analyzing scRNA-seq data from multiple sources. Overall, our study successfully demonstrates that deep learning models can accurately identify the type of infection from patient plasma samples based on scRNA-seq profiles, and improve the accuracy and specificity in the diagnosis of infectious diseases. This research contributes to the development of more objective, evidence-based diagnostic methods in the infectious disease domain, potentially reducing diagnostic errors and improving patient outcomes.",
        "authors": [
-            "David Rousseau", "Antoine Marot", "Zhen Xu" 
+            "Ziwei Yang", "Xuxi Chen", "Biqing Zhu", "Tianlong Chen", "Zhangyang Wang" 
         ],
-        "title": "Towards impactful challenges: post-challenge paper, benchmarks and other dissemination actions",
+        "title": "Deep Learning for Accurate Diagnosis of Viral Infections through scRNA-seq Analysis: A Comprehensive Benchmark Study",
         "volume": "02",
         "id": "12",
-        "page": "20",
+        "page": "19",
         "year": "2025"
     },
     {
-       "abstract": "The conclusion of an AI challenge is not the end of its lifecycle; ensuring a long-lasting impact requires meticulous post-challenge activities. The long-lasting impact also needs to be organised. This chapter covers the various activities after the challenge is formally finished. This work identifies target audiences for post-challenge initiatives and outlines methods for collecting and organizing challenge outputs. The multiple outputs of the challenge are listed, along with the means to collect them. The central part of the chapter is a template for a typical post-challenge paper, including possible graphs and advice on how to turn the challenge into a long-lasting benchmark.",
-       "authors": [
-            "David Rousseau", "Antoine Marot", "Zhen Xu" 
+       "abstract": "In recent times training Language Models (LMs) have relied on computationally heavy training over massive datasets which makes this training process extremely laborious. In this paper we propose a novel method for numerically evaluating text quality in large unlabelled NLP datasets in a model agnostic manner to assign the text instances a quality score.By proposing the text quality metric, the paper establishes a framework to identify and eliminate low-quality text instances, leading to improved training efficiency for LM models. Experimental results over multiple models and datasets demonstrate the efficacy of this approach, showcasing substantial gains in training effectiveness and highlighting the potential for resource-efficient LM training.For example, we observe an absolute accuracy improvement of 0.9% averaged over 14 downstream evaluation tasks for multiple LM models while using 40% lesser data and training 42% faster when training on the OpenWebText dataset and 0.8% average absolute accuracy improvement while using 20% lesser data and training 21% faster on the Wikipedia dataset.",
+        "authors": [
+            "Vasu Sharma", "Karthik Padthe", "Newsha Ardalani", "Kushal Tirumala", "Russell Howes", "Hu Xu", "Po-Yao Huang", "Daniel Li Chen", "Armen Aghajanyan", "Gargi Ghosh", "Luke Zettlemoyer"
         ],
-        "title": "Towards impactful challenges: post-challenge paper, benchmarks and other dissemination actions",
+        "title": "Text Quality-Based Pruning for Efficient Training of Language Models",
         "volume": "02",
         "id": "13",
-        "page": "20",
+        "page": "13",
         "year": "2025"
     },
     {
