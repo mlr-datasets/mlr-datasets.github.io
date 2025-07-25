@@ -1,0 +1,8 @@
+@article{
+sharma2025text,
+title={Text Quality-Based Pruning for Efficient Training of Language Models},
+author={Vasu Sharma and Karthik Padthe and Newsha Ardalani and Kushal Tirumala and Russell Howes and Hu Xu and Po-Yao Huang and Daniel Li Chen and Armen Aghajanyan and Gargi Ghosh and Luke Zettlemoyer},
+journal={Journal of Data-centric Machine Learning Research},
+year={2025},
+url={https://openreview.net/forum?id=uRj97Tf25L}
+}
