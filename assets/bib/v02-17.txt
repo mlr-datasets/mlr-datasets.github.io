@@ -1,0 +1,8 @@
+@article{
+jin2025the,
+title={The {FIX} Benchmark: Extracting Features Interpretable to eXperts},
+author={Helen Jin and Shreya Havaldar and Chaehyeon Kim and Anton Xue and Weiqiu You and Helen Qu and Marco Gatti and Daniel A Hashimoto and Bhuvnesh Jain and Amin Madani and Masao Sako and Lyle Ungar and Eric Wong},
+journal={Journal of Data-centric Machine Learning Research},
+year={2025},
+url={https://openreview.net/forum?id=BJnusBahD3}
+}
