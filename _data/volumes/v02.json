@@ -43,4 +43,158 @@
         "page": "44",
         "year": "2024"
     },
+    {
+       "abstract": "Personal assistants, automatic speech recognizers and dialogue understanding systems are becoming more critical in our interconnected digital world. A clear example is air traffic control (ATC) communications. ATC aims at guiding aircraft and controlling the airspace in a safe and optimal manner. These voice-based dialogues are carried between an air traffic controller (ATCO) and pilots via very-high frequency radio channels. In order to incorporate these novel technologies into ATC, large-scale annotated datasets are required to develop the data-driven AI systems. Two examples are automatic speech recognition (ASR) and natural language understanding (NLU).However, ATC is considered a low-resource domain. In this paper, we introduce the ATCO2 corpus, a dataset that aims at fostering research on the challenging ATC field, which has lagged behind due to lack of annotated data. In addition, we also open-source a GitHub repository that contains data preparation and training scripts useful to replicate our baselines related to ASR and NLU.The ATCO2 corpus covers 1) audio and radar data collection and pre-processing, 2) pseudo-transcriptions of speech audio, and 3) extraction of ATC-related named entities. The ATCO2 corpus is split into three subsets: (i) ATCO2-test-set corpus contains 4 hours of ATC speech with manual transcripts and a subset with gold transcriptions for named-entity recognition (callsign, command, value) and speaker role detection. (ii) The ATCO2-test-set-1h corpus is a one-hour open-sourced subset from the 4h test set.\footnote{Free to download, available at:  https://www.atco2.org/data. (iii) The ATCO2-PL-set corpus consists of 5'281 hours of pseudo-transcribed ATC speech enriched with contextual information (list of relevant n-gram sequences per utterance), speaker turn information, signal-to-noise ratio estimate and English language detection score per sample. The whole ATCO2 corpus is publicly distributed through ELDA catalog (https://catalog.elra.info/en-us/repository/browse/ELRA-S0484/). We expect the corpus will foster research on robust ASR and NLU not only in the field of ATC communications but also in the general research community.",
+       "authors": [
+            "Juan Pablo Zuluaga Gomez", "Karel Veselý", "Igor Szöke", "Alexander Blatt", "Petr Motlicek", "Martin Kocour", "Khalid Choukri", "Iuliia Nigmatulina", "Claudia Cevenini", "Allan Tart", "Jan Cernocký", "Dietrich Klakow"
+        ],
+        "title": "ATCO2 corpus: A Large-Scale Dataset for Research on Automatic Speech Recognition and Natural Language Understanding of Air Traffic Control Communications",
+        "volume": "02",
+        "id": "5",
+        "page": "45",
+        "year": "2024"
+    },
+    {
+       "abstract": "When assessing the quality of prediction models in machine learning, confidence intervals (CIs) for the generalization error, which measures predictive performance, are a crucial tool. Luckily, there exist many methods for computing such CIs and new promising approaches are continuously being proposed. Typically, these methods combine various resampling procedures, most popular among them cross-validation and bootstrapping, with different variance estimation techniques. Unfortunately, however, there is currently no consensus on when any of these combinations may be most reliably employed and how they generally compare. In this work, we conduct a large-scale study comparing CIs for the generalization error, the first one of such size, where we empirically evaluate 13 different CI methods on a total of 19 tabular regression and classification problems, using seven different inducers and a total of eight loss functions.We give an overview of the methodological foundations and inherent challenges of constructing CIs for the generalization error and provide a concise review of all 13 methods in a unified framework. Finally, the CI methods are evaluated in terms of their relative coverage frequency, width, and runtime. Based on these findings, we can identify a subset of methods that we would recommend.We also publish the datasets as a benchmarking suite on OpenML and our code on GitHub to serve as a basis for further studies.",
+       "authors": [
+            "Hannah Schulz-Kümpel", "Sebastian Felix Fischer", "Roman Hornung", "Anne-Laure Boulesteix", "Thomas Nagler", "Bernd Bischl" 
+        ],
+        "title": "Constructing Confidence Intervals for “the” Generalization Error – a Comprehensive Benchmark Study",
+        "volume": "02",
+        "id": "6",
+        "page": "73",
+        "year": "2025"
+    },
+    {
+       "abstract": "The conclusion of an AI challenge is not the end of its lifecycle; ensuring a long-lasting impact requires meticulous post-challenge activities. The long-lasting impact also needs to be organised. This chapter covers the various activities after the challenge is formally finished. This work identifies target audiences for post-challenge initiatives and outlines methods for collecting and organizing challenge outputs. The multiple outputs of the challenge are listed, along with the means to collect them. The central part of the chapter is a template for a typical post-challenge paper, including possible graphs and advice on how to turn the challenge into a long-lasting benchmark.",
+       "authors": [
+            "David Rousseau", "Antoine Marot", "Zhen Xu" 
+        ],
+        "title": "Towards impactful challenges: post-challenge paper, benchmarks and other dissemination actions",
+        "volume": "02",
+        "id": "7",
+        "page": "20",
+        "year": "2025"
+    },
+    {
+       "abstract": "The conclusion of an AI challenge is not the end of its lifecycle; ensuring a long-lasting impact requires meticulous post-challenge activities. The long-lasting impact also needs to be organised. This chapter covers the various activities after the challenge is formally finished. This work identifies target audiences for post-challenge initiatives and outlines methods for collecting and organizing challenge outputs. The multiple outputs of the challenge are listed, along with the means to collect them. The central part of the chapter is a template for a typical post-challenge paper, including possible graphs and advice on how to turn the challenge into a long-lasting benchmark.",
+       "authors": [
+            "David Rousseau", "Antoine Marot", "Zhen Xu" 
+        ],
+        "title": "Towards impactful challenges: post-challenge paper, benchmarks and other dissemination actions",
+        "volume": "02",
+        "id": "8",
+        "page": "20",
+        "year": "2025"
+    },
+    {
+       "abstract": "The conclusion of an AI challenge is not the end of its lifecycle; ensuring a long-lasting impact requires meticulous post-challenge activities. The long-lasting impact also needs to be organised. This chapter covers the various activities after the challenge is formally finished. This work identifies target audiences for post-challenge initiatives and outlines methods for collecting and organizing challenge outputs. The multiple outputs of the challenge are listed, along with the means to collect them. The central part of the chapter is a template for a typical post-challenge paper, including possible graphs and advice on how to turn the challenge into a long-lasting benchmark.",
+       "authors": [
+            "David Rousseau", "Antoine Marot", "Zhen Xu" 
+        ],
+        "title": "Towards impactful challenges: post-challenge paper, benchmarks and other dissemination actions",
+        "volume": "02",
+        "id": "9",
+        "page": "20",
+        "year": "2025"
+    },
+    {
+       "abstract": "The conclusion of an AI challenge is not the end of its lifecycle; ensuring a long-lasting impact requires meticulous post-challenge activities. The long-lasting impact also needs to be organised. This chapter covers the various activities after the challenge is formally finished. This work identifies target audiences for post-challenge initiatives and outlines methods for collecting and organizing challenge outputs. The multiple outputs of the challenge are listed, along with the means to collect them. The central part of the chapter is a template for a typical post-challenge paper, including possible graphs and advice on how to turn the challenge into a long-lasting benchmark.",
+       "authors": [
+            "David Rousseau", "Antoine Marot", "Zhen Xu" 
+        ],
+        "title": "Towards impactful challenges: post-challenge paper, benchmarks and other dissemination actions",
+        "volume": "02",
+        "id": "10",
+        "page": "20",
+        "year": "2025"
+    },
+    {
+       "abstract": "The conclusion of an AI challenge is not the end of its lifecycle; ensuring a long-lasting impact requires meticulous post-challenge activities. The long-lasting impact also needs to be organised. This chapter covers the various activities after the challenge is formally finished. This work identifies target audiences for post-challenge initiatives and outlines methods for collecting and organizing challenge outputs. The multiple outputs of the challenge are listed, along with the means to collect them. The central part of the chapter is a template for a typical post-challenge paper, including possible graphs and advice on how to turn the challenge into a long-lasting benchmark.",
+       "authors": [
+            "David Rousseau", "Antoine Marot", "Zhen Xu" 
+        ],
+        "title": "Towards impactful challenges: post-challenge paper, benchmarks and other dissemination actions",
+        "volume": "02",
+        "id": "11",
+        "page": "20",
+        "year": "2025"
+    },
+    {
+       "abstract": "The conclusion of an AI challenge is not the end of its lifecycle; ensuring a long-lasting impact requires meticulous post-challenge activities. The long-lasting impact also needs to be organised. This chapter covers the various activities after the challenge is formally finished. This work identifies target audiences for post-challenge initiatives and outlines methods for collecting and organizing challenge outputs. The multiple outputs of the challenge are listed, along with the means to collect them. The central part of the chapter is a template for a typical post-challenge paper, including possible graphs and advice on how to turn the challenge into a long-lasting benchmark.",
+       "authors": [
+            "David Rousseau", "Antoine Marot", "Zhen Xu" 
+        ],
+        "title": "Towards impactful challenges: post-challenge paper, benchmarks and other dissemination actions",
+        "volume": "02",
+        "id": "12",
+        "page": "20",
+        "year": "2025"
+    },
+    {
+       "abstract": "The conclusion of an AI challenge is not the end of its lifecycle; ensuring a long-lasting impact requires meticulous post-challenge activities. The long-lasting impact also needs to be organised. This chapter covers the various activities after the challenge is formally finished. This work identifies target audiences for post-challenge initiatives and outlines methods for collecting and organizing challenge outputs. The multiple outputs of the challenge are listed, along with the means to collect them. The central part of the chapter is a template for a typical post-challenge paper, including possible graphs and advice on how to turn the challenge into a long-lasting benchmark.",
+       "authors": [
+            "David Rousseau", "Antoine Marot", "Zhen Xu" 
+        ],
+        "title": "Towards impactful challenges: post-challenge paper, benchmarks and other dissemination actions",
+        "volume": "02",
+        "id": "13",
+        "page": "20",
+        "year": "2025"
+    },
+    {
+       "abstract": "The conclusion of an AI challenge is not the end of its lifecycle; ensuring a long-lasting impact requires meticulous post-challenge activities. The long-lasting impact also needs to be organised. This chapter covers the various activities after the challenge is formally finished. This work identifies target audiences for post-challenge initiatives and outlines methods for collecting and organizing challenge outputs. The multiple outputs of the challenge are listed, along with the means to collect them. The central part of the chapter is a template for a typical post-challenge paper, including possible graphs and advice on how to turn the challenge into a long-lasting benchmark.",
+       "authors": [
+            "David Rousseau", "Antoine Marot", "Zhen Xu" 
+        ],
+        "title": "Towards impactful challenges: post-challenge paper, benchmarks and other dissemination actions",
+        "volume": "02",
+        "id": "14",
+        "page": "20",
+        "year": "2025"
+    },
+    {
+       "abstract": "The conclusion of an AI challenge is not the end of its lifecycle; ensuring a long-lasting impact requires meticulous post-challenge activities. The long-lasting impact also needs to be organised. This chapter covers the various activities after the challenge is formally finished. This work identifies target audiences for post-challenge initiatives and outlines methods for collecting and organizing challenge outputs. The multiple outputs of the challenge are listed, along with the means to collect them. The central part of the chapter is a template for a typical post-challenge paper, including possible graphs and advice on how to turn the challenge into a long-lasting benchmark.",
+       "authors": [
+            "David Rousseau", "Antoine Marot", "Zhen Xu" 
+        ],
+        "title": "Towards impactful challenges: post-challenge paper, benchmarks and other dissemination actions",
+        "volume": "02",
+        "id": "15",
+        "page": "20",
+        "year": "2025"
+    },
+    {
+       "abstract": "The conclusion of an AI challenge is not the end of its lifecycle; ensuring a long-lasting impact requires meticulous post-challenge activities. The long-lasting impact also needs to be organised. This chapter covers the various activities after the challenge is formally finished. This work identifies target audiences for post-challenge initiatives and outlines methods for collecting and organizing challenge outputs. The multiple outputs of the challenge are listed, along with the means to collect them. The central part of the chapter is a template for a typical post-challenge paper, including possible graphs and advice on how to turn the challenge into a long-lasting benchmark.",
+       "authors": [
+            "David Rousseau", "Antoine Marot", "Zhen Xu" 
+        ],
+        "title": "Towards impactful challenges: post-challenge paper, benchmarks and other dissemination actions",
+        "volume": "02",
+        "id": "16",
+        "page": "20",
+        "year": "2025"
+    },
+    {
+       "abstract": "The conclusion of an AI challenge is not the end of its lifecycle; ensuring a long-lasting impact requires meticulous post-challenge activities. The long-lasting impact also needs to be organised. This chapter covers the various activities after the challenge is formally finished. This work identifies target audiences for post-challenge initiatives and outlines methods for collecting and organizing challenge outputs. The multiple outputs of the challenge are listed, along with the means to collect them. The central part of the chapter is a template for a typical post-challenge paper, including possible graphs and advice on how to turn the challenge into a long-lasting benchmark.",
+       "authors": [
+            "David Rousseau", "Antoine Marot", "Zhen Xu" 
+        ],
+        "title": "Towards impactful challenges: post-challenge paper, benchmarks and other dissemination actions",
+        "volume": "02",
+        "id": "17",
+        "page": "20",
+        "year": "2025"
+    },
+    {
+       "abstract": "The conclusion of an AI challenge is not the end of its lifecycle; ensuring a long-lasting impact requires meticulous post-challenge activities. The long-lasting impact also needs to be organised. This chapter covers the various activities after the challenge is formally finished. This work identifies target audiences for post-challenge initiatives and outlines methods for collecting and organizing challenge outputs. The multiple outputs of the challenge are listed, along with the means to collect them. The central part of the chapter is a template for a typical post-challenge paper, including possible graphs and advice on how to turn the challenge into a long-lasting benchmark.",
+       "authors": [
+            "David Rousseau", "Antoine Marot", "Zhen Xu" 
+        ],
+        "title": "Towards impactful challenges: post-challenge paper, benchmarks and other dissemination actions",
+        "volume": "02",
+        "id": "18",
+        "page": "20",
+        "year": "2025"
+    }
 ]
