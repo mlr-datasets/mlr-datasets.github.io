@@ -1,5 +1,16 @@
 [
     {
+      "abstract": "In today’s data-driven world, addressing bias is essential to minimize discriminatory outcomes and work toward fairness in machine learning models. This paper presents a novel data-centric framework for bias analysis, harnessing the power of counterfactual reasoning. We detail a process for generating plausible counterfactuals suited for group evaluation, using probabilistic distributions and optionally incorporating domain knowledge, as a more efficient alternative to computationally intensive generative models.Additionally, we introduce the Counterfactual Confusion Matrix, from which we derive a suite of metrics that provide a comprehensive view of a model's behaviour under counterfactual conditions. These metrics offer unique insights into the model's resilience and susceptibility to changes in sensitive attributes, such as sex or race. We demonstrate their utility and complementarity with standard group fairness metrics through experiments on real-world datasets. Our results show that domain knowledge is key, and that our metrics can reveal subtle biases that traditional bias evaluation strategies may overlook, providing a more nuanced understanding of potential model bias.",
+      "authors": [
+            "Mariana Pinto", "Andre V Carreiro", "Pedro Madeira", "Alberto Lopez", "Hugo Gamboa" 
+        ],
+        "title": "The Matrix Reloaded: Towards Counterfactual Group Fairness in Machine Learning",
+        "volume": "02",
+        "id": "1",
+        "year": "2024",
+        "page":"55"
+    },
+    {
       "abstract": "In the consumer lending market, women tend to have lower access to credit than men, despite evidence suggesting that women are better at repaying their debts. This study explores the potential impact of leveraging alternative data, which traditionally has not been used by financial institutions, on credit risk predictions between men and women. By leveraging unique data on individuals' credit card default behaviors and their purchase behaviors at a supermarket, we simulate a credit card issuer's credit scoring process. In the absence of supermarket data, the algorithm's predictive accuracy for women is about 2.3% lower than that for men. We then integrate data from each of the 410 product markets within the supermarket into the algorithm and measure the changes in the gender gap in predictive accuracy. We find a wide variation in both direction and magnitude in the incremental gender gap, ranging from -142% to 70% compared to the baseline. These findings highlight that leveraging alternative data from a non-financial domain can lead to fairer credit outcomes, but only under certain conditions. We characterize the conditions by identifying two data properties: the capacity to proxy gender and the relative amount of creditworthiness signals data provide for each gender.", 
       "authors": [
             "Jung Youn Lee", "Joonhyuk Yang" 
@@ -19,6 +30,17 @@
         "volume": "02",
         "id": "3",
         "page": "32",
+        "year": "2024"
+    },
+    {
+       "abstract": "As large models become increasingly prevalent, watermarking has emerged as a crucial technology for copyright protection, authenticity verification, and content tracking. The rise of multimodal applications further amplifies the importance of effective watermarking techniques. While watermark robustness is critical for real-world deployment, the current understanding of watermark robustness against various forms of corruption remains limited. Our study evaluates watermark robustness in both image and text domains, testing against an extensive set of 100 image perturbations and 63 text perturbations. The results reveal significant vulnerabilities in contemporary watermarking approaches - detection accuracy deteriorates by more than 50\% under common perturbations, highlighting a critical gap between current capabilities and practical requirements. These findings emphasize the urgent need for more robust watermarking methods that can withstand real-world disturbances. Our project website can be found at https://mmwatermark-robustness.github.io/.", 
+       "authors": [
+            "Jielin Qiu", "William Han", "Xuandong Zhao", "Shangbang Long", "Christos Faloutsos", "Lei Li" 
+        ],
+        "title": "Evaluating Durability: Benchmark Insights into Image and Text Watermarking",
+        "volume": "02",
+        "id": "4",
+        "page": "44",
         "year": "2024"
     },
 ]
