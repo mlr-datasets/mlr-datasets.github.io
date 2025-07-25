@@ -88,14 +88,14 @@
         "year": "2025"
     },
     {
-       "abstract": "The conclusion of an AI challenge is not the end of its lifecycle; ensuring a long-lasting impact requires meticulous post-challenge activities. The long-lasting impact also needs to be organised. This chapter covers the various activities after the challenge is formally finished. This work identifies target audiences for post-challenge initiatives and outlines methods for collecting and organizing challenge outputs. The multiple outputs of the challenge are listed, along with the means to collect them. The central part of the chapter is a template for a typical post-challenge paper, including possible graphs and advice on how to turn the challenge into a long-lasting benchmark.",
+       "abstract": "Despite the successes of recent developments in visual AI, different shortcomings still exist; from missing exact logical reasoning, to abstract generalization abilities, to understanding complex and noisy scenes. Unfortunately, existing benchmarks, were not designed to cap- ture more than a few of these aspects. Whereas deep learning datasets focus on visually complex data but simple visual reasoning tasks, inductive logic datasets involve complex logical learning tasks, however, lack the visual component. To address this, we propose the diagnostic visual logical learning dataset, V-LoL, that seamlessly combines visual and logical challenges. Notably, we introduce the first instantiation of V-LoL, V-LoL-Train, -- a visual rendition of a classic benchmark in symbolic AI, the Michalski train problem. By incorporating intricate visual scenes and flexible logical reasoning tasks within a versatile framework, V-LoL-Train provides a platform for investigating a wide range of visual logical learning challenges. We evaluate a variety of AI systems including traditional symbolic AI, neural AI, as well as neuro-symbolic AI. Our evaluations demonstrate that even SOTA AI faces difficulties in dealing with visual logical learning challenges, highlighting unique advantages and limitations of each methodology. Overall, V-LoL opens up new avenues for understanding and enhancing current abilities in visual logical learning for AI systems.",
        "authors": [
-            "Pu Ren", "N. Benjamin Erichson", "Junyi Guo", "Shashank Subramanian", "Omer San", "Zarija Lukic", "Michael W. Mahoney"
+            "Lukas Helff", "Wolfgang Stammer", "Hikaru Shindo", "Devendra Singh Dhami", "Kristian Kersting" 
         ],
-        "title": "SuperBench: A Super-Resolution Benchmark Dataset for Scientific Machine Learning",
+        "title": "V-LoL: A Diagnostic Dataset for Visual Logical Learning",
         "volume": "02",
         "id": "9",
-        "page": "20",
+        "page": "41",
         "year": "2025"
     },
     {
