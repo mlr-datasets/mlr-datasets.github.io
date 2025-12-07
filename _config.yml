@@ -28,6 +28,10 @@ analytics:
 # Build settings
 markdown: kramdown
 
+# Disable GitHub metadata for local builds
+github: [metadata]
+
+
 collections:
   volumes:
     output: true
