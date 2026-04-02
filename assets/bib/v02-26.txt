@@ -1,0 +1,9 @@
+@article{
+joshi2025mmgen,
+title={{MM}-{GEN}: Principled and Generalizable Data Curation for Enhancing Task Performance in {VLM}s},
+author={Siddharth Joshi and Besmira Nushi and Vidhisha Balachandran and Varun Chandrasekaran and Vibhav Vineet and Neel Joshi and Baharan Mirzasoleiman},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2025},
+url={https://openreview.net/forum?id=r9xVVuhxKI}
+}

@@ -273,5 +273,16 @@
         "id": "25",
         "page": "34",
         "year": "2025"
+    },
+    {
+       "abstract": "Vision-language models (VLMs) often struggle on specialized tasks requiring fine-grained image understanding due to inadequate task-specific text annotations in the training data. We introduce MM-Gen, a framework for data curation that improves VLM performance on such tasks guided by four principles: coverage of task subgroups, diversity of examples, quality of annotations, and informational value. Given reference samples from the target task, keywords enumerating task subgroups, and a pool of candidate images, MM-Gen implements a multi-stage process: (1) partitioning data by subgroup to ensure coverage, (2) generating diverse annotations via in-context learning for each subgroup using corresponding reference samples, and (3) applying perplexity-based filtering to ensure high quality annotations while prioritizing examples that provide novel information to the model. When fine-tuning Llava-1.5 (7B) with our generated data, we achieve absolute improvements of 15%, 14%, and 29% on chart understanding, diagram interpretation, and spatial reasoning tasks, respectively. Moreover, our filtering approach enables discarding 50% of the data without performance loss. Our results confirm that task-specific text curation is indeed the critical bottleneck in VLM performance, and MM-Gen provides a principled and generalizable solution that can be applied to any image-understanding task with minimal human intervention. Code available at https://github.com/sjoshi804/MM-Gen.",
+       "authors": [
+            "Siddharth Joshi", "Besmira Nushi", "Vidhisha Balachandran", "Varun Chandrasekaran", "Vibhav Vineet", "Neel Joshi", "Baharan Mirzasoleiman"
+        ],
+        "title": "MM-GEN: Principled and Generalizable Data Curation for Enhancing Task Performance in VLMs",
+        "volume": "02",
+        "id": "26",
+        "page": "28",
+        "year": "2025"
     }
 ]
