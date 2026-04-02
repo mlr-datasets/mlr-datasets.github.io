@@ -97,5 +97,16 @@
     "id": "9",
     "page": "37",
     "year": "2026"
+  },
+  {
+    "abstract": "Graph-level regression underpins many real-world applications, yet public benchmarks remain heavily skewed toward molecular graphs and citation networks. This limited diversity hinders progress on models that must generalize across both homogeneous and heterogeneous graph structures. We introduce RelSC, a new graph-regression dataset built from program graphs that combine syntactic and semantic information extracted from source code. Each graph is labelled with the execution-time cost of the corresponding program, providing a continuous target variable that differs markedly from those found in existing benchmarks. RelSC is released in two complementary variants. TypeOne supplies rich node features under a single (homogeneous) edge type, while TypeTwo preserves the original multi-relational structure, connecting nodes through multiple edge types that encode distinct semantic relationships. Together, these variants let researchers probe how representation choice influences model behaviour. We evaluate a diverse set of graph neural network architectures on both variants of RelSC. The results reveal consistent performance differences between the homogeneous and multi-relational settings, emphasising the importance of structural representation. These findings demonstrate RelSC's value as a challenging and versatile benchmark for advancing graph regression methods.",
+    "authors": [
+      "Peter Samoaa", "Marcus Vukojevic", "Morteza Haghir Chehreghani", "Antonio Longa"
+    ],
+    "title": "A Benchmark Dataset for Graph Regression with Homogeneous and Multi-Relational Variants",
+    "volume": "03",
+    "id": "10",
+    "page": "41",
+    "year": "2026"
   }
 ]

@@ -1,0 +1,9 @@
+@article{
+samoaa2026a,
+title={A Benchmark Dataset for Graph Regression with Homogeneous and Multi\nobreakdash-Relational Variants},
+author={Peter Samoaa and Marcus Vukojevic and Morteza Haghir Chehreghani and Antonio Longa},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2026},
+url={https://openreview.net/forum?id=bFTJEChRU7}
+}
