@@ -1,0 +1,9 @@
+@article{
+chen2025towards,
+title={Towards Causal Relationship in indefinite data: New Datasets and Baseline Model},
+author={Hang Chen and Xinyu Yang and Keqing Du},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2025},
+url={https://openreview.net/forum?id=LxR0MRFBbS}
+}
