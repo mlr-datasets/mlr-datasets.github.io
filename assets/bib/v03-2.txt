@@ -1,0 +1,9 @@
+@article{
+mladenovic2026automated,
+title={Automated Data Preparation for Machine Learning: A Survey},
+author={Sasa Mladenovic and Marius Lindauer and Carola Doerr},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2026},
+url={https://openreview.net/forum?id=Euti6LHIOs}
+}

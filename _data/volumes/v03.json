@@ -9,5 +9,16 @@
     "id": "1",
     "page": "48",
     "year": "2026"
+  },
+  {
+    "abstract": "Data preparation is essential for effective machine learning (ML), yet typically remains a manual, time-consuming process. While automated machine learning (AutoML) has successfully addressed modeling aspects of the ML workflow, data preparation has largely been overlooked, leading to challenges with real-world, imperfect data. Conversely, a rising paradigm in the world of artificial intelligence (AI) and ML is that of data-centric AI, shifting focus from just refining models, to enhancing data in order to advance performance boundaries. This survey motivates the need for automated solutions regarding data preparation, offering a fundamental understanding of the benefits of data transformations and establishing the complexity of data pipeline optimization, while highlighting the importance of data quality. We provide a comprehensive overview and categorization of existing automation approaches, both in AutoML and as standalone fully or semi-automated systems. We discuss underlying methodologies, their advantages, and limitations. Our work explores the prospects of expanding automation to cover a broader data preparation process, aiming to bridge the gap between data-centric AI and AutoML. It paves the way to a wholly automated pipeline from raw real-world data to quality model predictions, and outlines future research directions towards that goal.",
+    "authors": [
+      "Sasa Mladenovic", "Marius Lindauer", "Carola Doerr"
+    ],
+    "title": "Automated Data Preparation for Machine Learning: A Survey",
+    "volume": "03",
+    "id": "2",
+    "page": "72",
+    "year": "2026"
   }
 ]
