@@ -1,0 +1,9 @@
+@article{
+formanek2026putting,
+title={Putting Data at the Centre of Offline Multi-Agent Reinforcement Learning},
+author={Juan Claude Formanek and Louise Beyers and Callum Rhys Tilbury and Jonathan Phillip Shock and Arnu Pretorius},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2026},
+url={https://openreview.net/forum?id=Rp6H7FKkpf}
+}
