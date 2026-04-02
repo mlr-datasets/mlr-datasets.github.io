@@ -218,5 +218,16 @@
         "id": "20",
         "page": "39",
         "year": "2025"
+    },
+    {
+       "abstract": "Multiphase fluid dynamics, such as falling droplets and rising bubbles, is critical for many industrial applications. However, simulating these phenomena efficiently is challenging due to the complexity of instabilities, wave patterns, and bubble breakup. This paper investigates the potential of scientific machine learning (SciML) to model these dynamics using neural operators and foundation models. We apply sequence-to-sequence learning techniques to a comprehensive dataset of 11,000 simulations, which includes over 1 million time snapshots, generated using a well-validated, CUDA-accelerated Lattice Boltzmann Method (LBM) framework. The results demonstrate the ability of machine learning models to capture transient dynamics and intricate fluid interactions, paving the way for more accurate and computationally efficient SciML-based solvers for multiphase applications.",
+       "authors": [
+            "Mehdi Shadkhah", "Ronak Tali", "Ali Rabeh", "Cheng-Hau Yang", "Ethan Herron", "Abhisek Upadhyaya", "Adarsh Krishnamurthy", "Chinmay Hegde", "Aditya Balu", "Baskar Ganapathysubramanian"
+        ],
+        "title": "MPFBench: A Large Scale Dataset for SciML of Multi-Phase-Flows: Droplet and Bubble Dynamics",
+        "volume": "02",
+        "id": "21",
+        "page": "35",
+        "year": "2025"
     }
 ]

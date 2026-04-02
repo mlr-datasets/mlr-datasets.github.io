@@ -1,0 +1,9 @@
+@article{
+shadkhah2025mpfbench,
+title={{MPFB}ench: A Large Scale Dataset for Sci{ML} of Multi-Phase-Flows: Droplet and Bubble Dynamics},
+author={Mehdi Shadkhah and Ronak Tali and Ali Rabeh and Cheng-Hau Yang and Ethan Herron and Abhisek Upadhyaya and Adarsh Krishnamurthy and Chinmay Hegde and Aditya Balu and Baskar Ganapathysubramanian},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2025},
+url={https://openreview.net/forum?id=9gQnIFI4es}
+}
