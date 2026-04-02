@@ -119,5 +119,16 @@
     "id": "11",
     "page": "24",
     "year": "2026"
+  },
+  {
+    "abstract": "The ecosystem of artificial intelligence contests is diverse and multifaceted, encompassing several platforms that each host numerous competitions and challenges annually, alongside many specialized websites dedicated to individual contests. These platforms manage the overarching administrative responsibilities inherent in orchestrating contests, thus allowing organizers to allocate greater attention to other aspects of their contests. Notably, these platforms exhibit considerable variety in their features, economic models, and communities. This chapter conducts an extensive review of the leading services in this space and explores alternative methods facilitating the independent hosting of such contests. We provide hints and tips on choosing the right platform for your challenge at the end.",
+    "authors": [
+      "Andrey Ustyuzhanin", "Harald Carlens"
+    ],
+    "title": "AI Competitions and Benchmarks book - Practical issues and open problems",
+    "volume": "03",
+    "id": "12",
+    "page": "68",
+    "year": "2026"
   }
 ]

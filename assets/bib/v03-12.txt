@@ -1,0 +1,9 @@
+@article{
+pavao2026ai,
+title={{AI} Competitions and Benchmarks book - Practical issues and open problems},
+author={Andrey Ustyuzhanin and Harald Carlens},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2026},
+url={https://openreview.net/forum?id=aATSw1zwOV}
+}
