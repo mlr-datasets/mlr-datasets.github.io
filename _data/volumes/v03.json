@@ -53,5 +53,16 @@
     "id": "5",
     "page": "30",
     "year": "2026"
+  },
+  {
+    "abstract": "Knowledge Graph Embedding (KGE) models are used to learn continuous representations of entities and relations, commonly trained to predict missing links between entities. However, Knowledge Graphs are not just sets of links but also have complex semantics underlying their structure. Semantics plays a crucial role in several downstream tasks, such as query answering and reasoning. Recognizing this, our work goes beyond simple link prediction to focus on inferred knowledge that adheres to rich semantics. Specifically, 1) we introduce the subgraph inference task, where a model is required to generate novel subgraphs that are logically consistent with background knowledge; 2) we propose IntelliGraphs, a set of five new datasets that contain subgraphs with logical rules that express complex semantics for evaluating subgraph inference models, and 3) we design four baseline models, which include three models based on traditional KGEs, and show empirically that the KGE-based baselines can not capture complex semantics. We believe that IntelliGraphs will encourage the development of machine learning models that focus on semantic understanding.",
+    "authors": [
+      "Thiviyan Thanapalasingam", "Emile van Krieken", "Peter Bloem", "Paul Groth"
+    ],
+    "title": "IntelliGraphs: Datasets for Benchmarking Knowledge Graph Generation",
+    "volume": "03",
+    "id": "6",
+    "page": "34",
+    "year": "2026"
   }
 ]

@@ -1,0 +1,10 @@
+@article{
+thanapalasingam2026intelligraphs,
+title={IntelliGraphs: Datasets for Benchmarking Knowledge Graph Generation},
+author={Thiviyan Thanapalasingam and Emile van Krieken and Peter Bloem and Paul Groth},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2026},
+url={https://openreview.net/forum?id=4wbayMJWwN},
+note={Dataset Certification, Reproducibility Certification}
+}
