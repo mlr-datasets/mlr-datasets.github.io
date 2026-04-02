@@ -5,12 +5,7 @@ title: Accepted Papers
 
 {{content}}
 
-{% assign volume_number = page.id | plus: 0 %}
-{% if volume_number < 10 %}
-{% assign data_key = volume_number | prepend: 'v0' %}
-{% else %}
-{% assign data_key = volume_number | prepend: 'v' %}
-{% endif %}
+{% assign data_key = page.name | remove: '.md' | prepend: 'v' %}
 {% assign paper_list = site.data.volumes[data_key] %}
 
 <ul class="list-papers list-group list-group-flush">
