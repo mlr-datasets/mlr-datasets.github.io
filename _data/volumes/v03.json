@@ -86,5 +86,16 @@
     "id": "8",
     "page": "26",
     "year": "2026"
+  },
+  {
+    "abstract": "The COVID-19 pandemic, which began in late 2019 in Wuhan, China, quickly escalated into a global crisis that affected nearly every aspect of life. Governments around the world implemented stringent public health measures to control the spread, including quarantines, social distancing, and lockdowns. In Spain, where the first cases emerged in January 2020, a nationwide lockdown was imposed on 14 March after the number of infections exceeded 5,000. Although these interventions were crucial for public health, they also presented significant social challenges, particularly for vulnerable groups. The primary goal of this study is to describe a dataset that combines psychological assessments of nine mental health conditions with sociodemographic, economic, living, and general health features. The data collected could potentially be used to identify the key factors that influenced mental health outcomes during lockdown. By analysing these data, the research seeks to shed light on the broader psychological effects of the pandemic and the factors that can exacerbate or mitigate these impacts. As an added value and to demonstrate the quality and potential of the dataset for mental health research, baseline machine learning models were developed, achieving performance metrics that exceed 80%. LOCKED is publicly available at https://zenodo.org/uploads/14203988.",
+    "authors": [
+      "Alberto Nogales", "Alfredo Guitian", "Blanca Mellor-Marsá", "Alvaro J. García-Tejedor"
+    ],
+    "title": "LOCKED: A Dataset of Sociodemographic, Economic, Health and Living Features to Assess Mental Health Impact of the Spanish Lockdown during COVID-19",
+    "volume": "03",
+    "id": "9",
+    "page": "37",
+    "year": "2026"
   }
 ]

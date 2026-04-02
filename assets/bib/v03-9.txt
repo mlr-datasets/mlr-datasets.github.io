@@ -1,0 +1,10 @@
+@article{
+nogales2026locked,
+title={{LOCKED}: A Dataset of Sociodemographic, Economic, Health and Living Features to Assess Mental Health Impact of the Spanish Lockdown during {COVID}-19},
+author={Alberto Nogales and Alfredo Guitian and Blanca Mellor-Mars{\'a} and Alvaro J. Garc{\'\i}a-Tejedor},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2026},
+url={https://openreview.net/forum?id=becy2EuGjE},
+note={Dataset Certification}
+}
