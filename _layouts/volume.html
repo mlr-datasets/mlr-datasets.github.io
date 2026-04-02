@@ -5,13 +5,13 @@ title: Accepted Papers
 
 {{content}}
 
-{% if page.name == "Volume 1" %}
-{% assign paper_list = site.data.volumes.v01 %}
-{% elsif page.name == "Volume 2" %}
-{% assign paper_list = site.data.volumes.v02 %}
+{% assign volume_number = page.id | plus: 0 %}
+{% if volume_number < 10 %}
+{% assign data_key = volume_number | prepend: 'v0' %}
 {% else %}
-{% assign paper_list = "" %}
+{% assign data_key = volume_number | prepend: 'v' %}
 {% endif %}
+{% assign paper_list = site.data.volumes[data_key] %}
 
 <ul class="list-papers list-group list-group-flush">
     {% for article in paper_list %}
@@ -33,8 +33,6 @@ title: Accepted Papers
     </details>
     <!--Render link to pdf-->
       <a href="/assets/pdf/v{{ article.volume }}-{{article.id}}.pdf">[PDF]</a>
-      <!--Click abs, then show the abstract-->
-      {{volume.abstract}}
       <a href="/assets/bib/v{{ article.volume }}-{{article.id}}.txt">[bib]</a>
       <p></p>
     </dl>
@@ -42,4 +40,3 @@ title: Accepted Papers
     
     {% endfor %}
 </ul>
-

@@ -1,0 +1,9 @@
+@article{
+bsharat2026mobilemmlu,
+title={Mobile-{MMLU}: A Mobile Intelligence Language Understanding Benchmark},
+author={Sondos Mahmoud Bsharat and Mukul Ranjan and Aidar Myrzakhan and Jiacheng Liu and Bowei Guo and Shengkun Tang and Zhuang Liu and Yuanzhi Li and Zhiqiang Shen},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2026},
+url={https://openreview.net/forum?id=AaFRpxD6po}
+}
