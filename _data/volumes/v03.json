@@ -42,5 +42,16 @@
     "id": "4",
     "page": "30",
     "year": "2026"
+  },
+  {
+    "abstract": "Daily Activity Recordings for artificial intelligence (DARai, pronounced /Dahr-ree/), is a multimodal, hierarchically annotated dataset constructed to understand human activities in real-world settings. DARai consists of continuous scripted and unscripted recordings of 50 participants in 10 different environments, totaling over 200 hours of data from 20 sensors including multiple camera views, depth and radar sensors, wearable inertial measurement units (IMUs), electromyography (EMG), insole pressure sensors, biomonitor sensors, and gaze tracker. To capture the complexity in human activities, DARai is annotated at three levels of hierarchy: (i) high-level activities (L1) that are independent tasks, (ii) lower-level actions (L2) that are patterns shared between activities, and (iii) fine-grained procedures (L3) that detail the exact execution steps for actions. The unscripted nature of DARai enables the collection of action counterfactuals, defined as observed alternative executions of the same activity under different conditions (e.g., lifting a heavy versus a light object). Experiments with various machine learning models showcase the value of DARai in uncovering important challenges in human-centered applications. Specifically, we conduct unimodal and multimodal sensor fusion experiments for recognition, temporal localization, and future action anticipation across all hierarchical annotation levels. To showcase the shortcomings of individual sensors, we conduct domain-variant experiments that are possible because of DARai's multi-sensor setup and its inclusion of action counterfactuals, i.e., observed alternative executions of the same activity. The code, documentation, and dataset is available at the dedicated DARai website.",
+    "authors": [
+      "Ghazal Kaviani", "Yavuz Yarici", "Seulgi Kim", "Mohit Prabhushankar", "Ghassan AlRegib", "Mashhour Solh", "Ameya Patil"
+    ],
+    "title": "Hierarchical and Multimodal Data for Daily Activity Understanding",
+    "volume": "03",
+    "id": "5",
+    "page": "30",
+    "year": "2026"
   }
 ]

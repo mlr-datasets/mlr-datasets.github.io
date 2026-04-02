@@ -1,0 +1,9 @@
+@article{
+kaviani2026hierarchical,
+title={Hierarchical and Multimodal Data for Daily Activity Understanding},
+author={Ghazal Kaviani and Yavuz Yarici and Seulgi Kim and Mohit Prabhushankar and Ghassan AlRegib and Mashhour Solh and Ameya Patil},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2026},
+url={https://openreview.net/forum?id=0E7a6RTBqM}
+}
