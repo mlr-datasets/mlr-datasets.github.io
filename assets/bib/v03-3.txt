@@ -1,0 +1,9 @@
+@article{
+becktepe2026arlbench,
+title={{ARLB}ench: Flexible and Efficient Benchmarking for Hyperparameter Optimization in Reinforcement Learning},
+author={Jannis Becktepe and Julian Dierkes and Carolin Benjamins and Aditya Mohan and David Salinas and Raghu Rajan and Frank Hutter and Holger Hoos and Marius Lindauer and Theresa Eimer},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2026},
+url={https://openreview.net/forum?id=i6iafxkfFF}
+}
