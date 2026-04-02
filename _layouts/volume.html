@@ -5,7 +5,7 @@ title: Accepted Papers
 
 {{content}}
 
-{% assign data_key = page.name | remove: '.md' | prepend: 'v' %}
+{% assign data_key = page.path | split: '/' | last | remove: '.md' | prepend: 'v' %}
 {% assign paper_list = site.data.volumes[data_key] %}
 
 <ul class="list-papers list-group list-group-flush">
