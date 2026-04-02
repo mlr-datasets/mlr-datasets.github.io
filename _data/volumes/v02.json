@@ -251,5 +251,16 @@
         "id": "23",
         "page": "40",
         "year": "2025"
+    },
+    {
+       "abstract": "Graph Neural Networks (GNNs) have garnered increasing attention in recent years, given their significant proficiency in various graph learning tasks. Consequently, there has been a notable transition away from the conventional and prevalent shallow graph embedding methods which pre-dated GNNs. However, in tandem with this transition which is pre-supposed in the literature, an imperative question arises: do GNNs always outperform shallow embedding methods in node representation learning? This question remains inadequately explored, as the field of graph machine learning still lacks a systematic understanding of their relative strengths and limitations. To address this gap, we propose a principled framework that unifies the ideologies of representative shallow graph embedding methods and GNNs. With comparative analysis, we show that GNNs actually bear drawbacks that are typically not shared by shallow embedding methods. These drawbacks are often masked by data characteristics in commonly used benchmarks and thus not well-discussed in the literature, leading to potential suboptimal performance when GNNs are indiscriminately adopted in applications. We further show that our analysis can be generalized to GNNs under various learning paradigms, which provides further insights to emphasize the research significance of shallow embedding methods. Finally, with these insights, we conclude with a guide to meet various needs of researchers and practitioners.",
+       "authors": [
+            "Yushun Dong", "William Shiao", "Yozen Liu", "Jundong Li", "Neil Shah", "Tong Zhao"
+        ],
+        "title": "SEESAW: Do Graph Neural Networks Improve Node Representation Learning for All?",
+        "volume": "02",
+        "id": "24",
+        "page": "42",
+        "year": "2025"
     }
 ]

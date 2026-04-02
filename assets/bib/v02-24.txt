@@ -1,0 +1,9 @@
+@article{
+dong2025seesaw,
+title={{SEESAW}: Do Graph Neural Networks Improve Node Representation Learning for All?},
+author={Yushun Dong and William Shiao and Yozen Liu and Jundong Li and Neil Shah and Tong Zhao},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2025},
+url={https://openreview.net/forum?id=zfPqOouLFn}
+}
