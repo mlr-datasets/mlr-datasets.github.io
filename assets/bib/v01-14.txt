@@ -1,6 +1,6 @@
 @article{
 climaco2024on,
-title={On minimizing the training set fill distance in machine learning regression},
+title={On Minimizing the Training Set Fill Distance in Machine Learning Regression},
 author={Paolo Climaco and Jochen Garcke},
 journal={Journal of Data-centric Machine Learning Research},
 year={2024},
