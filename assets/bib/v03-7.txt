@@ -1,0 +1,9 @@
+@article{
+green2026finsurvival,
+title={FinSurvival: A Suite of Large Scale Survival Modeling Tasks from Finance},
+author={Aaron Green and Zihan Nie and Hanzhen Qin and Oshani Seneviratne and Kristin Bennett},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2026},
+url={https://openreview.net/forum?id=4sElt9JYTL}
+}
