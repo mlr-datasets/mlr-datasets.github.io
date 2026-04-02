@@ -229,5 +229,16 @@
         "id": "21",
         "page": "35",
         "year": "2025"
+    },
+    {
+       "abstract": "Face recognition (FR) models have become an integral part of day-to-day activities involving surveillance and biometric verification. While these models perform remarkably well in constrained settings, the performance is limited in the presence of certain challenging covariates. One such covariate is the presence of unforeseen image degradations and corruptions. These degradations, which inevitably occur during image acquisition, transmission, or storage, substantially impact real-world applicability. In order to analyze the performance of FR systems in these scenarios, we provide the first-ever Degraded and Corrupted Face Recognition (DecordFace) framework to evaluate the robustness of FR models. Corrupted versions of multiple standard datasets are created, and experiments are performed using more than 3.6 million corrupted face images with over 25 recognition models with different architectures and backbones, using 16 corruptions at 5 severity levels. For quantitative estimation of the impact of corruption, we introduce two novel evaluation metrics, error-based mVCE and embedding-based mCEI. Using these metrics and a cohort of FR models, we conduct a detailed analysis of model robustness under different model and input parameters. We observe a severe drop in the performance of models for unconstrained face recognition with performance errors over 20% across different corruptions. The performance of model variants with shallow backbones is observed to suffer even more. The code for the DecordFace framework can be accessed at https://github.com/IAB-IITJ/DecordFace.",
+       "authors": [
+            "Surbhi Mittal", "Rishi Dey Chowdhury", "Mayank Vatsa", "Richa Singh"
+        ],
+        "title": "DecordFace: A Framework for Degraded and Corrupted Face Recognition",
+        "volume": "02",
+        "id": "22",
+        "page": "43",
+        "year": "2025"
     }
 ]

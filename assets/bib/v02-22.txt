@@ -1,0 +1,9 @@
+@article{
+mittal2025decordface,
+title={DecordFace: A Framework for Degraded and Corrupted Face Recognition},
+author={Surbhi Mittal and Rishi Dey Chowdhury and Mayank Vatsa and Richa Singh},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2025},
+url={https://openreview.net/forum?id=XJoY2EWROn}
+}
