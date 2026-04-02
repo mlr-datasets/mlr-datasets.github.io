@@ -75,5 +75,16 @@
     "id": "7",
     "page": "32",
     "year": "2026"
+  },
+  {
+    "abstract": "Electroencephalography (EEG) is a crucial tool across neuroscience domains, including medical diagnostics, psychological research, and brain-computer interfacing (BCI). Its popularity is due to its non-invasiveness, high temporal resolution, and cost-effectiveness. The task of EEG classification, which involves learning to predict class labels associated with EEG segments based on previously observed data. This task is fundamental yet complex, given the high dimensionality, variability, and subject-specific nuances inherent in EEG data. We systematically evaluate recent advances in general-purpose time series machine learning (TSML) approaches to EEG classification. We present an EEG classification archive of 30 benchmark datasets, spanning diverse applications from clinical diagnostics to cognitive and BCI tasks. Our empirical evaluation compares traditional EEG approaches, deep learning models, Riemannian geometry-based classifiers, and state-of-the-art time series machine learning algorithms on this new benchmark. We find that one algorithm, a meta ensemble called HIVE-COTE v2.0, consistently outperforms alternative classifiers.",
+    "authors": [
+      "Aiden Rushbrooke", "Saber Sami", "Matthew Middlehurst", "Tony Bagnall"
+    ],
+    "title": "Time Series Machine Learning for Classifying Electroencephalograms",
+    "volume": "03",
+    "id": "8",
+    "page": "26",
+    "year": "2026"
   }
 ]

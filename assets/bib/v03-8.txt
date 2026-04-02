@@ -1,0 +1,10 @@
+@article{
+rushbrooke2026time,
+title={Time Series Machine Learning for Classifying Electroencephalograms},
+author={Aiden Rushbrooke and Saber Sami and Matthew Middlehurst and Tony Bagnall},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2026},
+url={https://openreview.net/forum?id=oPQpQlsfD0},
+note={Dataset Certification}
+}
