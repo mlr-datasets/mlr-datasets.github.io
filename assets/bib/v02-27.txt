@@ -1,0 +1,9 @@
+@article{
+stolovitzky2025the,
+title={The life cycle of challenges and benchmarks},
+author={Gustavo Stolovitzky and Julio Saez-Rodriguez and Julie Bletz and Jake Albrecht and Gaia Andreoletti and James C Costello and PAUL C BOUTROS},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2025},
+url={https://openreview.net/forum?id=SCnDxbsNrq}
+}

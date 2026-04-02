@@ -284,5 +284,16 @@
         "id": "26",
         "page": "28",
         "year": "2025"
+    },
+    {
+       "abstract": "Data Science research is undergoing a revolution fueled by the transformative power of technology, the Internet, and an ever-increasing computational capacity. The rate at which sophisticated algorithms can be developed is unprecedented, yet they remain outpaced by the massive amounts of data that are increasingly available to researchers. Here we argue for the need to creatively leverage the scientific research and algorithm development community as an axis of robust innovation. Engaging these communities in the scientific discovery enterprise by critical assessments, community experiments, and/or crowdsourcing will multiply opportunities to develop new data-driven, reproducible and well-benchmarked algorithmic solutions to fundamental and applied problems of current interest. Coordinated community engagement in the analysis of highly complex and massive data has emerged as one approach to find robust methodologies that best address these challenges. When community engagement is done in the form of challenges, by which we mean a skill-based scientific contest, with a limited time duration, ending by a total ranking of participants according to a pre-defined scoring metric, and the selection of winners, the validation of the analytical methodology is inherently addressed, establishing performance benchmarks. Finally, challenges foster open innovation across multiple disciplines to create communities that collaborate directly or indirectly to address significant scientific gaps. Together, participants can solve important problems as varied as health research, climate change, and social equity. Ultimately, challenges can catalyze and accelerate the synthesis of complex data into knowledge or actionable information, and should be viewed as a powerful tool to make lasting social and research contributions.",
+       "authors": [
+            "Gustavo Stolovitzky", "Julio Saez-Rodriguez", "Julie Bletz", "Jake Albrecht", "Gaia Andreoletti", "James C Costello", "PAUL C BOUTROS"
+        ],
+        "title": "The life cycle of challenges and benchmarks",
+        "volume": "02",
+        "id": "27",
+        "page": "16",
+        "year": "2025"
     }
 ]
