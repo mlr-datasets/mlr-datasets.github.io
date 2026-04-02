@@ -262,5 +262,16 @@
         "id": "24",
         "page": "42",
         "year": "2025"
+    },
+    {
+       "abstract": "Using the weights of trained Neural Network (NN) models as data modality has recently gained traction as a research field - dubbed Weight Space Learning (WSL). Multiple recent works propose WSL methods to analyze models, evaluate methods, or synthesize weights. Weight space learning methods require populations of trained models as datasets for development and evaluation. However, existing collections of models -- called model zoos -- are unstructured or follow a rudimentary definition of diversity. In parallel, work rooted in statistical physics has identified phases and phase transitions in NN models. Models are homogeneous within the same phase but qualitatively differ from one phase to another. We combine the idea of model zoos with phase information to create a controlled notion of diversity in populations. We introduce 12 large-scale zoos that systematically cover known phases and vary over model architecture, size, and datasets. These datasets cover different modalities, such as computer vision, natural language processing, and scientific ML. For every model, we compute loss landscape metrics and validate full coverage of the phases. With this dataset, we provide the community with a resource with a wide range of potential applications for WSL and beyond. Evidence suggests the loss landscape phase plays a role in applications such as model training, analysis, or sparsification. We demonstrate this in an exploratory study of the downstream methods like transfer learning or model weights averaging.",
+       "authors": [
+            "Konstantin Schürholt", "Léo Meynent", "Yefan Zhou", "Haiquan Lu", "Yaoqing Yang", "Damian Borth"
+        ],
+        "title": "A Model Zoo on Phase Transitions in Neural Networks",
+        "volume": "02",
+        "id": "25",
+        "page": "34",
+        "year": "2025"
     }
 ]

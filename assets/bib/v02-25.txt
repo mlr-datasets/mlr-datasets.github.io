@@ -1,0 +1,9 @@
+@article{
+sch{\"u}rholt2025a,
+title={A Model Zoo on Phase Transitions in Neural Networks},
+author={Konstantin Sch{\"u}rholt and L{\'e}o Meynent and Yefan Zhou and Haiquan Lu and Yaoqing Yang and Damian Borth},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2025},
+url={https://openreview.net/forum?id=zJRWvNpdIr}
+}
