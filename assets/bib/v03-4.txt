@@ -1,0 +1,10 @@
+@article{
+westerhoff2026scam,
+title={{SCAM}: A Real-World Typographic Robustness Evaluation for Multimodal Foundation Models},
+author={Justus Westerhoff and Erblina Purelku and Jakob Hackstein and Jonas Loos and Leo Pinetzki and Erik Rodner and Lorenz Hufe},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2026},
+url={https://openreview.net/forum?id=zCcJSErVHH},
+note={Dataset Certification}
+}
