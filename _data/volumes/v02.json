@@ -207,5 +207,16 @@
         "id": "19",
         "page": "37",
         "year": "2025"
+    },
+    {
+       "abstract": "This work introduces TopoBench, an open-source library designed to standardize benchmarking and accelerate research in topological deep learning (TDL). TopoBench decomposes TDL into a sequence of independent modules for data generation, loading, transforming and processing, as well as model training, optimization and evaluation. This modular organization provides flexibility for modifications and facilitates the adaptation and optimization of various TDL pipelines. A key feature of TopoBench is its support for transformations and lifting across topological domains. Mapping the topology and features of a graph to higher-order topological domains, such as simplicial and cell complexes, enables richer data representations and more fine-grained analyses. The applicability of TopoBench is demonstrated by benchmarking several TDL architectures across diverse tasks and datasets.",
+       "authors": [
+            "Lev Telyatnikov", "Guillermo Bernardez", "Marco Montagna", "Mustafa Hajij", "Martin Carrasco", "Pavlo Vasylenko", "Mathilde Papillon", "Ghada Zamzmi", "Michael T Schaub", "Jonas Verhellen", "Pavel Snopov", "Bertran Miquel-Oliver", "Manel Gil-Sorribes", "Alexis Molina", "VICTOR GUALLAR", "Theodore Long", "Julian Suk", "Patryk Rygiel", "Alexander V Nikitin", "Giordan Escalona", "Michael Banf", "Dominik Filipiak", "Liliya Imasheva", "Max Schattauer", "Alvaro L. Martinez", "Halley Fritze", "Marissa Masden", "Valentina Sánchez", "Manuel Lecha", "Andrea Cavallo", "Claudio Battiloro", "Matthew Piekenbrock", "Mauricio Tec", "George Dasoulas", "Nina Miolane", "Simone Scardapane", "Theodore Papamarkou"
+        ],
+        "title": "TopoBench: A Framework for Benchmarking Topological Deep Learning",
+        "volume": "02",
+        "id": "20",
+        "page": "39",
+        "year": "2025"
     }
 ]
