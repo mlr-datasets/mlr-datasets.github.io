@@ -1,0 +1,10 @@
+@article{
+laghuvarapu2025moltextqa,
+title={MolText{QA}: A Question-Answering Dataset and Benchmark for Evaluating Multimodal Architectures and {LLM}s on Molecular Structure{\textendash}Text Understanding},
+author={Siddhartha Laghuvarapu and Namkyeong Lee and Chufan Gao and Jimeng Sun},
+journal={Journal of Data-centric Machine Learning Research},
+issn={XXXX-XXXX},
+year={2025},
+url={https://openreview.net/forum?id=tFfqvKE2J5},
+note={Dataset Certification}
+}
