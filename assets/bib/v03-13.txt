@@ -1,0 +1,9 @@
+@article{
+somasekharan2026cfdllmbench,
+title={{CFDLLMB}ench: A Benchmark Suite for Evaluating Large Language Models in Computational Fluid Dynamics},
+author={Nithin Somasekharan and Ling Yue and Yadi Cao and Weichao LI and Patrick Emami and Pochinapeddi Sai Bhargav and Anurag Acharya and Xingyu Xie and Shaowu Pan},
+journal={Journal of Data-centric Machine Learning Research Special Track},
+issn={XXXX-XXXX},
+year={2026},
+url={https://openreview.net/forum?id=kTcH1MnkjY}
+}

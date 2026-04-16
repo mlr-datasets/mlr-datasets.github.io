@@ -130,5 +130,16 @@
     "id": "12",
     "page": "68",
     "year": "2026"
+  },
+  {
+    "abstract": "Large Language Models (LLMs) have demonstrated strong performance across general NLP tasks, but their utility in automating numerical experiments of complex physical systems and labor-intensive components remains underexplored. As the major workhorse of computational science over the past decades, Computational Fluid Dynamics (CFD) offers a uniquely challenging testbed for evaluating the scientific capabilities of LLMs. We introduce CFDLLMBench, a benchmark suite comprising three complementary components: CFDQuery, CFDCodeBench, and FoamBench, designed to holistically evaluate LLM performance across three key competencies: graduate-level CFD knowledge, numerical and physical reasoning of CFD, and context-dependent implementation of CFD workflows. Grounded in real-world CFD practices, our benchmark combines a detailed task taxonomy with a rigorous evaluation framework to deliver reproducible results and quantify LLM performance across code executability, solution accuracy, and numerical convergence behavior. CFDLLMBench establishes a solid foundation for the development and evaluation of LLM-driven automation of numerical experiments for complex physical systems. Code and data are available at https://github.com/NLR-Theseus/cfdllmbench/.",
+    "authors": [
+      "Nithin Somasekharan", "Ling Yue", "Yadi Cao", "Weichao LI", "Patrick Emami", "Pochinapeddi Sai Bhargav", "Anurag Acharya", "Xingyu Xie", "Shaowu Pan"
+    ],
+    "title": "CFDLLMBench: A Benchmark Suite for Evaluating Large Language Models in Computational Fluid Dynamics",
+    "volume": "03",
+    "id": "13",
+    "page": "40",
+    "year": "2026"
   }
 ]
