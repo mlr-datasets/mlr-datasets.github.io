@@ -1,0 +1,8 @@
+@article{
+felten2026momaland,
+title={{MOMA}land: A Set of Benchmarks for Multi-Objective Multi-Agent Reinforcement Learning},
+author={Florian Felten and Umut Ucak and Hicham Azmani and Gao Peng and Willem R{\"o}pke and Hendrik Baier and Patrick Mannion and Diederik M Roijers and J K Terry and El Ghazali Talbi and Gr{\'e}goire Danoy and Ann Nowe and Roxana R{\u{a}}dulescu},
+journal={Journal of Data-centric Machine Learning Research},
+year={2026},
+url={https://openreview.net/forum?id=vzHLRK0sSp}
+}
