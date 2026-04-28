@@ -141,5 +141,27 @@
     "id": "13",
     "page": "40",
     "year": "2026"
+  },
+  {
+    "abstract": "Image labeling is a critical bottleneck in the development of computer vision technologies, often constraining machine learning performance due to the time-intensive nature of manual annotations. This work introduces a novel approach that leverages outpainting to mitigate annotated data scarcity by generating artificial contexts and annotations, significantly reducing labeling efforts. We apply this technique to a particularly acute challenge in autonomous driving, urban planning, and environmental monitoring: the lack of diverse, eye-level vehicle images from desired classes. Our dataset comprises AI-generated vehicle images obtained by detecting and cropping vehicles from manually selected seed images, which are then outpainted onto larger canvases to simulate varied real-world conditions. The outpainted images include detailed annotations, providing high-quality ground truth data. Advanced outpainting techniques and image quality assessments ensure visual fidelity and contextual relevance. Ablation results show that incorporating AIDOVECL improves overall detection performance by up to about 10%, and delivers gains of up to about 40% in settings with greater diversity of context, object scale, and placement, with underrepresented classes achieving up to about 50% higher true positives. AIDOVECL enhances vehicle detection by augmenting real training data and supporting evaluation across diverse scenarios. By demonstrating outpainting as an automatic annotation paradigm, it offers a practical and versatile solution for building fine-grained datasets with reduced labeling effort across multiple machine learning domains. The code and links to datasets are available for further research and replication at https://github.com/amir-kazemi/aidovecl.",
+    "authors": [
+      "Amir Kazemi", "Qurat ul ain Fatima", "Volodymyr Kindratenko", "Christopher W Tessum"
+    ],
+    "title": "AIDOVECL: AI-generated Dataset of Outpainted Vehicles for Eye-level Classification and Localization",
+    "volume": "03",
+    "id": "14",
+    "page": "34",
+    "year": "2026"
+  },
+  {
+    "abstract": "Many challenging tasks such as managing traffic systems, electricity grids, or supply chains involve complex decision-making processes that must balance multiple conflicting objectives and coordinate the actions of various independent decision-makers (DMs). One perspective for formalising and addressing such tasks is multi-objective multi-agent reinforcement learning (MOMARL). MOMARL broadens reinforcement learning (RL) to problems with multiple agents each needing to consider multiple objectives in their learning process. In reinforcement learning research, benchmarks are crucial in facilitating progress, evaluation, and reproducibility. The significance of benchmarks is underscored by the existence of numerous benchmark frameworks developed for various RL paradigms, including single-agent RL (e.g., Gymnasium), multi-agent RL (e.g., PettingZoo), and single-agent multi-objective RL (e.g., MO-Gymnasium). To support the advancement of the MOMARL field, we introduce MOMAland, the first collection of standardised environments for multi-objective multi-agent reinforcement learning. MOMAland addresses the need for comprehensive benchmarking in this emerging field, offering over 10 diverse environments that vary in the number of agents, state representations, reward structures, and utility considerations. To provide strong baselines for future research, MOMAland also includes algorithms capable of learning policies in such settings.",
+    "authors": [
+      "Florian Felten", "Umut Ucak", "Hicham Azmani", "Gao Peng", "Willem Röpke", "Hendrik Baier", "Patrick Mannion", "Diederik M Roijers", "J K Terry", "El Ghazali Talbi", "Grégoire Danoy", "Ann Nowe", "Roxana Rădulescu"
+    ],
+    "title": "MOMAland: A Set of Benchmarks for Multi-Objective Multi-Agent Reinforcement Learning",
+    "volume": "03",
+    "id": "15",
+    "page": "49",
+    "year": "2026"
   }
 ]

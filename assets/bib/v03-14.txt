@@ -1,0 +1,8 @@
+@article{
+kazemi2026aidovecl,
+title={{AIDOVECL}: {AI}-generated Dataset of Outpainted Vehicles for Eye-level Classification and Localization},
+author={Amir Kazemi and Qurat ul ain Fatima and Volodymyr Kindratenko and Christopher W Tessum},
+journal={Journal of Data-centric Machine Learning Research},
+year={2026},
+url={https://openreview.net/forum?id=59MARvj9vN}
+}
