@@ -1,0 +1,8 @@
+@article{
+banbury2026wake,
+title={Wake Vision: A Tailored Dataset and Benchmark Suite for Tiny{ML} Computer Vision Applications},
+author={Colby Banbury and Emil Njor and Andrea Mattia Garavagno and Mark Mazumder and Pete Warden and Manjunath Kudlur and Nat Jeffries and Xenofon Fafoutis and Vijay Janapa Reddi},
+journal={Journal of Data-centric Machine Learning Research Special Track},
+year={2026},
+url={https://openreview.net/forum?id=eb82tUIZRA}
+}

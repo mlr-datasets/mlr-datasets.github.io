@@ -163,5 +163,16 @@
     "id": "15",
     "page": "49",
     "year": "2026"
+  },
+  {
+    "abstract": "Tiny machine learning (TinyML) co-locates models with sensors on microcontrollers, where small models (which are disproportionately sensitive to label noise) and bespoke binary tasks (which lack standard benchmarks) make general-purpose dataset practices a poor fit. Visual Wake Words (VWW), the prior standard TinyML person detection benchmark, contains roughly 123K images and has an estimated label error rate of 7.8%, which limits its usefulness for production-grade systems. Manual labeling, however, is prohibitively expensive for the scale and diversity of TinyML use cases. We address this gap with the Wake Vision pipeline, an automated method for generating and curating large-scale binary classification datasets for TinyML. We use data-centric TinyML for the dataset construction, curation, and lifecycle methods that produce the large, well-curated datasets these systems require. The pipeline combines label fusion across image-level and bounding-box sources, confidence-, area-, and depiction-aware filtering, label correction on the evaluation splits, and automatic generation of fine-grained benchmark subsets. Applying it to person detection, we release Wake Vision, a dataset of almost 6M images (close to 100× more person images than VWW) with a manually relabeled validation and test set at a 2.2% label error rate. Models trained on Wake Vision improve test accuracy by up to 6.6% over VWW across MobileNetV2, MCUNet, MicroNets, and ColabNAS architectures, and match or exceed VWW-trained models on 13 of 16 fine-grained subsets covering perceived gender, perceived age, distance, lighting, and depictions. The advantage holds under distribution shift on three out-of-distribution datasets covering driving and overhead-surveillance imagery. We additionally uncover two TinyML-specific insights: small models are more sensitive to label errors than large models, and two-stage training, which pretrains on the noisier large set and fine-tunes on the cleaner small set, is a viable strategy even for tiny, low-capacity models. Beyond person detection, the Wake Vision pipeline applies to the 9.6K trainable classes of Open Images v7; on bird detection it produces a dataset 27× larger than a VWW-style baseline with label error reduced from 6.6% to 0.6%. All artifacts are released under CC-BY 4.0 through TensorFlow Datasets and Hugging Face. To continue improving the dataset over time, we partner with the Edge AI Foundation to host community competitions; the first round contributed a label-correction technique that reduced the Wake Vision (Large) label error rate from 15.2% to 9.8%, at a cost orders of magnitude below the $600,000 implied by manual relabeling at this scale.",
+    "authors": [
+      "Colby Banbury", "Emil Njor", "Andrea Mattia Garavagno", "Mark Mazumder", "Pete Warden", "Manjunath Kudlur", "Nat Jeffries", "Xenofon Fafoutis", "Vijay Janapa Reddi"
+    ],
+    "title": "Wake Vision: A Tailored Dataset and Benchmark Suite for TinyML Computer Vision Applications",
+    "volume": "03",
+    "id": "16",
+    "page": "48",
+    "year": "2026"
   }
 ]
