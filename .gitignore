@@ -1,1 +1,4 @@
 _site/
+.DS_Store
+.vscode/
+WEBSITE_UPDATE_INSTRUCTIONS.md
