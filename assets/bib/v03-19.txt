@@ -1,0 +1,8 @@
+@article{
+markeeva2026the,
+title={The {CLRS}-Text Algorithmic Reasoning Language Benchmark},
+author={Larisa Markeeva and Sean Michael McLeish and Borja Ibarz and Wilfried Bounsi and Olga Kozlova and Alex Vitvitskyi and Charles Blundell and Tom Goldstein and Avi Schwarzschild and Petar Veli{\v{c}}kovi{\'c}},
+journal={Journal of Data-centric Machine Learning Research},
+year={2026},
+url={https://openreview.net/forum?id=1sZ8RsVEoX}
+}

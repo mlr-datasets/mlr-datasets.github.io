@@ -1,0 +1,8 @@
+@article{
+kotowski2026european,
+title={European Space Agency Dataset and Benchmark for Real-World Anomaly Detection in Spacecraft Time Series},
+author={Krzysztof Kotowski and Christoph Haskamp and Jacek Andrzejewski and Bogdan Ruszczak and Jakub Nalepa and Daniel Lakey and Peter Collins and Jose Martinez Heras and Gabriele De Canio},
+journal={Journal of Data-centric Machine Learning Research},
+year={2026},
+url={https://openreview.net/forum?id=bbpRMoatVO}
+}

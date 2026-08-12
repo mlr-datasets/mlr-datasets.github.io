@@ -1,0 +1,8 @@
+@article{
+wasala2026automl,
+title={Auto{ML} to Advance Earth Observation},
+author={Julia W{\k{a}}sala and Joannes D. Maasakkers and Ilse Aben and Rochelle Schneider and Holger H. Hoos and Mitra Baratchi},
+journal={Journal of Data-centric Machine Learning Research},
+year={2026},
+url={https://openreview.net/forum?id=j9gQSilGq2}
+}

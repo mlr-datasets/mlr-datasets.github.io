@@ -1,0 +1,8 @@
+@article{
+chae2026decomposing,
+title={Decomposing Complex Visual Comprehension into Atomic Visual Skills for Vision Language Models},
+author={Hyunsik Chae and Seungwoo Yoon and Jaden Park and Chloe Yewon Chun and Yongin Cho and Mu Cai and Yong Jae Lee and Ernest K. Ryu},
+journal={Journal of Data-centric Machine Learning Research},
+year={2026},
+url={https://openreview.net/forum?id=d18yO97PCp}
+}

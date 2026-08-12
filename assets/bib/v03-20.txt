@@ -1,0 +1,8 @@
+@article{
+groger2026cleanpatrick,
+title={CleanPatrick: A Benchmark for Image Data Cleaning},
+author={Fabian Gr{\"o}ger and Simone Lionetti and Philippe Gottfrois and Alvaro Gonzalez-Jimenez and Ludovic Amruthalingam and Elisabeth Victoria Goessinger and Hanna Lindemann and Marie Bargiela and Marie Hofbauer and Omar Badri and Philipp Tschandl and Arash Koochek and Matthew Groh and Alexander A. Navarini and Marc Pouly},
+journal={Journal of Data-centric Machine Learning Research},
+year={2026},
+url={https://openreview.net/forum?id=e2q3zXxm9v}
+}

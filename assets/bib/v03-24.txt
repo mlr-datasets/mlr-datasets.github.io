@@ -1,0 +1,8 @@
+@article{
+kohaut2026cyclist,
+title={Cycli{ST}: A Video Language Model Benchmark for Reasoning on Cyclical State Transitions},
+author={Simon Kohaut and Daniel Ochs and Shun Zhang and Benedict Flade and Julian Eggert and Kristian Kersting and Devendra Singh Dhami},
+journal={Journal of Data-centric Machine Learning Research},
+year={2026},
+url={https://openreview.net/forum?id=l03g53HUL2}
+}

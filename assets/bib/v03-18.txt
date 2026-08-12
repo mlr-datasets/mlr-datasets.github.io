@@ -1,0 +1,8 @@
+@article{
+pavao2026how,
+title={How to judge a competition: Fairly judging a competition or assessing benchmark results},
+author={Adrien Pav{\~a}o},
+journal={Journal of Data-centric Machine Learning Research},
+year={2026},
+url={https://openreview.net/forum?id=JLsZ9iNdhs}
+}

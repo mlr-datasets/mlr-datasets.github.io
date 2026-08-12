@@ -185,5 +185,93 @@
     "id": "17",
     "page": "39",
     "year": "2026"
+  },
+  {
+    "abstract": "This chapter addresses how to minimize randomness in competition or benchmark judging. We discuss scoring metrics, size of test data, error bars, splitting into phases, and score aggregation methods. Our approach blends theoretical insights with practical guidelines, aiming to provide a clear framework for effective decision making and reduced uncertainty.",
+    "authors": [
+      "Adrien Pavão"
+    ],
+    "title": "How to judge a competition: Fairly judging a competition or assessing benchmark results",
+    "volume": "03",
+    "id": "18",
+    "page": "42",
+    "year": "2026"
+  },
+  {
+    "abstract": "Eliciting reasoning capabilities from language models (LMs) is a critical direction on the path towards building intelligent systems. Many foundational studies dedicated to reasoning focus on out-of-distribution performance on procedurally-generated synthetic benchmarks, bespoke-built to evaluate specific skills only. This trend makes results hard to transfer across publications, slowing down progress. Several years ago, a similar issue was identified and rectified in the field of neural algorithmic reasoning, with the advent of the CLRS benchmark. CLRS is a dataset generator comprising graph execution traces of classical algorithms from the Introduction to Algorithms textbook. Inspired by this, we propose CLRS-Text, a textual version of these algorithmic traces. Out of the box, CLRS-Text is capable of procedurally generating trace data for thirty diverse, challenging algorithmic tasks across any desirable input distribution, while offering a standard pipeline in which any additional algorithmic tasks may be created in the benchmark. We fine-tune and evaluate various LMs as generalist executors on this benchmark, validating prior work and revealing a novel, interesting challenge for the LM reasoning community. Our code is available at https://github.com/google-deepmind/clrs/tree/master/clrs/_src/clrs_text.",
+    "authors": [
+      "Larisa Markeeva", "Sean Michael McLeish", "Borja Ibarz", "Wilfried Bounsi", "Olga Kozlova", "Alex Vitvitskyi", "Charles Blundell", "Tom Goldstein", "Avi Schwarzschild", "Petar Veličković"
+    ],
+    "title": "The CLRS-Text Algorithmic Reasoning Language Benchmark",
+    "volume": "03",
+    "id": "19",
+    "page": "21",
+    "year": "2026"
+  },
+  {
+    "abstract": "Robust machine learning depends on clean data, yet current image data cleaning benchmarks rely on synthetic noise or narrow human studies, limiting comparison and real-world relevance. We introduce CleanPatrick, the first large-scale benchmark for data cleaning in the image domain, built upon the publicly available Fitzpatrick17k dermatology dataset. We collect 496,377 binary annotations from 933 medical crowd workers, identify off-topic samples (4%), near-duplicates (21%), and label errors (32%), and employ an aggregation model inspired by item-response theory followed by expert review to derive high-quality ground truth. CleanPatrick formalizes issue detection as a ranking task and employs standard ranking metrics that mirror real audit workflows. We benchmark classical anomaly detectors, perceptual hashing, SSIM, Confident Learning, NoiseRank, FINE, BHN, and SelfClean. On CleanPatrick, self-supervised representations excel at near-duplicate detection, classical methods achieve competitive off-topic detection under constrained review budgets, and detecting implausible labels under conservative human judgment remains challenging for fine-grained medical classification. By releasing both the dataset and the evaluation framework, CleanPatrick enables a systematic comparison of image-cleaning strategies.",
+    "authors": [
+      "Fabian Gröger", "Simone Lionetti", "Philippe Gottfrois", "Alvaro Gonzalez-Jimenez", "Ludovic Amruthalingam", "Elisabeth Victoria Goessinger", "Hanna Lindemann", "Marie Bargiela", "Marie Hofbauer", "Omar Badri", "Philipp Tschandl", "Arash Koochek", "Matthew Groh", "Alexander A. Navarini", "Marc Pouly"
+    ],
+    "title": "CleanPatrick: A Benchmark for Image Data Cleaning",
+    "volume": "03",
+    "id": "20",
+    "page": "31",
+    "year": "2026"
+  },
+  {
+    "abstract": "Machine learning (ML) techniques have become crucial enablers of progress in Earth observation (EO) research by providing data-driven solutions to effectively leverage the large volumes of available satellite imagery. However, configuring ML pipelines demands substantial time and expertise, making it challenging to consistently develop robust, high-performing ML pipelines for EO applications. Automated machine learning (AutoML), the study of automatic configuration and design of methods and tools for ML systems, has emerged as a solution to this problem. Key AutoML techniques, such as neural architecture search (NAS) and hyperparameter optimisation (HPO), are increasingly applied to EO-related problems. Developing AutoML for processing EO data is challenging, as automation removes human interventions and domain knowledge that can ensure the development of robust Machine Learning for Earth observation (ML4EO) models for new applications. While both AutoML and ML for EO (ML4EO) techniques have been widely studied and reviewed independently, no existing survey provides a systematic overview of their intersection, including the domain-specific challenges that arise when applying AutoML in an EO context. To address this gap, we present a survey of AutoML4EO through both data-centric and model-centric perspectives, covering the application of existing AutoML systems to EO problems and the design of entirely new systems. Finally, we highlight specific characteristics of EO data that are relevant to the development and evaluation of AutoML4EO systems and provide a perspective on challenges that must be addressed to create the next generation of AutoML4EO systems.",
+    "authors": [
+      "Julia Wąsala", "Joannes D. Maasakkers", "Ilse Aben", "Rochelle Schneider", "Holger H. Hoos", "Mitra Baratchi"
+    ],
+    "title": "AutoML to Advance Earth Observation",
+    "volume": "03",
+    "id": "21",
+    "page": "58",
+    "year": "2026"
+  },
+  {
+    "abstract": "Recent Vision-Language Models (VLMs) have demonstrated impressive multimodal comprehension and reasoning capabilities, yet they often struggle with trivially simple visual tasks. In this work, we focus on the domain of basic 2D Euclidean geometry and systematically categorize the fundamental, indivisible visual perception skills, which we refer to as atomic visual skills. We then introduce the Atomic Visual Skills Dataset (AVSD) for evaluating VLMs on the atomic visual skills. Using AVSD, we benchmark state-of-the-art VLMs and find that they struggle with these tasks, despite being trivial for adult humans. Our findings highlight the need for purpose-built datasets to train and evaluate VLMs on atomic, rather than composite, visual perception tasks.",
+    "authors": [
+      "Hyunsik Chae", "Seungwoo Yoon", "Jaden Park", "Chloe Yewon Chun", "Yongin Cho", "Mu Cai", "Yong Jae Lee", "Ernest K. Ryu"
+    ],
+    "title": "Decomposing Complex Visual Comprehension into Atomic Visual Skills for Vision Language Models",
+    "volume": "03",
+    "id": "22",
+    "page": "93",
+    "year": "2026"
+  },
+  {
+    "abstract": "Time series from spacecraft sensors are high-dimensional, nonstationary, nonlinear, irregularly sampled, and exhibit both spatial and temporal dependencies. Detecting anomalies in such signals is critical for both on-ground and in-orbit space operations. The potential of machine learning in this task is currently hampered by a lack of comprehensive datasets and benchmarks that capture its real-world complexity. The European Space Agency Anomaly Detection Benchmark (ESA-ADB) addresses this issue and establishes a new standard in the domain. It is a result of close cooperation between engineers from the European Space Operations Center and machine learning experts from industry and academia. Our newly introduced dataset (doi.org/10.5281/zenodo.12528695) contains several years of real-life raw data from 3 large spacecraft, including 224 channels, 821 control signals, and 1430 annotated events, which makes it the biggest dataset of its kind in the literature. The associated benchmark defines 9 specific requirements and 5 evaluation metrics for assessing anomaly detection algorithms in operational practice. The results indicate that widely used anomaly detection algorithms, even with our proposed adaptations, are not yet suitable for effective deployment. Thus, ESA-ADB remains an open challenge and continues to be explored through dedicated competitions and related projects listed on the official project webpage (ai4gs.space-codev.org/esa-adb).",
+    "authors": [
+      "Krzysztof Kotowski", "Christoph Haskamp", "Jacek Andrzejewski", "Bogdan Ruszczak", "Jakub Nalepa", "Daniel Lakey", "Peter Collins", "Jose Martinez Heras", "Gabriele De Canio"
+    ],
+    "title": "European Space Agency Dataset and Benchmark for Real-World Anomaly Detection in Spacecraft Time Series",
+    "volume": "03",
+    "id": "23",
+    "page": "76",
+    "year": "2026"
+  },
+  {
+    "abstract": "We present CycliST, a novel benchmark dataset designed to evaluate Video Language Models (VLM) on their reasoning over cyclical state transitions. CycliST captures fundamental aspects of real-world processes in synthetic, richly structured video sequences featuring periodic visual patterns. Furthermore, CycliST offers a tiered evaluation, providing increasing difficulty levels by varying the number of cyclic objects, scene clutter, and lighting conditions. We conduct extensive experiments with current open-source and proprietary state-of-the-art VLMs and reveal their limitations in generalizing to cyclical dynamics, such as linear and orbital motion, as well as to time-dependent changes in visual attributes like color and scale. Our results demonstrate that present-day VLMs struggle to reliably detect and exploit cyclic patterns, lack a notion of temporal understanding, and are unable to extract quantitative insights from scenes, such as the number of objects in motion, highlighting a significant technical gap that needs to be addressed. More specifically, we find no single model consistently outperforms others: neither size nor architecture correlates strongly with outcomes, and no model performs equally well across all tasks. By providing a targeted challenge and a comprehensive evaluation framework, CycliST paves the way for visual reasoning models that surpass the state-of-the-art in understanding periodic patterns.",
+    "authors": [
+      "Simon Kohaut", "Daniel Ochs", "Shun Zhang", "Benedict Flade", "Julian Eggert", "Kristian Kersting", "Devendra Singh Dhami"
+    ],
+    "title": "CycliST: A Video Language Model Benchmark for Reasoning on Cyclical State Transitions",
+    "volume": "03",
+    "id": "24",
+    "page": "31",
+    "year": "2026"
+  },
+  {
+    "abstract": "Effective benchmarking is instrumental for the systematic evaluation of Large Language Models (LLMs) performance, providing vital insights in the path towards advancements in Artificial Intelligence (AI). Existing benchmarks, such as Humanity's Last Exam and FrontierMath, stress-test the boundaries of the model's performance. However, they provide limited understanding of a model's reliability in routine, low-difficulty scenarios. It is, however, these contexts, which, despite their simplicity, frequently expose persistent model weaknesses. To address this, we present the Dataset, a complementary benchmark aiming to address this oversight via systematic (and continuous) evaluation of LLMs' performance in basic reasoning and everyday tasks. It is the end result of a crowdsourcing effort seeking to ensure a diversity of perspectives and topic coverage. Moreover, the dataset is designed to be dynamic in nature; it incorporates new items as emerging failure modes are identified while retiring resolved items, thereby maintaining relevance over time. Similar to previous efforts, such as TruthfulQA, the primary objective of this new benchmark is to identify persistent shortcomings and support the development of robust and reliable LLMs. Ultimately, this process should converge upon a set of unreasonable issues, at which point we can be confident that the LLMs will indeed exhibit impressive and resilient capabilities. The set of (multimodal) questions is available at https://huggingface.co/datasets/unreasonablebenchmark/unreasonable-benchmark, under a Creative Commons Attribution-ShareAlike (CC BY-SA) license.",
+    "authors": [
+      "Fernando Perez-Cruz", "Briland Hitaj", "Giovanna Maria Dimitri", "Oishi Deb", "Amine M'Charrak", "Shikhar Srivastava", "Christopher Kanan", "Anup Kumar Gupta", "Zefang Liu", "Zihan Zhu", "Tarun Kumar", "Álvaro Galisteo Bermúdez", "Vasilios Mavroudis", "Yuyang Xue", "Brian Matejek", "Swati Rajwal", "Avinash Kumar Pandey", "Ayyüce Begüm Bektaş", "Anil B Murthy", "Feng Chen", "Hamed Babaei Giglou", "Jennifer D'Souza", "Huascar Sanchez", "Michael Kraus", "Isamu Lautenschläger", "Ziyang Wang", "Xuanli He", "Hyun Song Shin"
+    ],
+    "title": "The Unreasonable Benchmark",
+    "volume": "03",
+    "id": "25",
+    "page": "17",
+    "year": "2026"
   }
 ]

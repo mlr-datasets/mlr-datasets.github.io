@@ -1,0 +1,8 @@
+@article{
+perez-cruz2026the,
+title={The Unreasonable Benchmark},
+author={Fernando Perez-Cruz and Briland Hitaj and Giovanna Maria Dimitri and Oishi Deb and Amine M'Charrak and Shikhar Srivastava and Christopher Kanan and Anup Kumar Gupta and Zefang Liu and Zihan Zhu and Tarun Kumar and {\'A}lvaro Galisteo Berm{\'u}dez and Vasilios Mavroudis and Yuyang Xue and Brian Matejek and Swati Rajwal and Avinash Kumar Pandey and Ayy{\"u}ce Beg{\"u}m Bekta{\c{s}} and Anil B Murthy and Feng Chen and Hamed Babaei Giglou and Jennifer D'Souza and Huascar Sanchez and Michael Kraus and Isamu Lautenschl{\"a}ger and Ziyang Wang and Xuanli He and Hyun Song Shin},
+journal={Journal of Data-centric Machine Learning Research},
+year={2026},
+url={https://openreview.net/forum?id=EkWAAfbGrh}
+}
