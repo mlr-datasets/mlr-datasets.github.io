@@ -1,0 +1,9 @@
+@article{
+escalante2026academic,
+title={Academic Competitions},
+author={Hugo Jair Escalante and Aleksandra Kruchinina},
+journal={Journal of Data-centric Machine Learning Research},
+year={2026},
+url={https://openreview.net/forum?id=Oc1taS2iYd},
+note={Survey Certification}
+}

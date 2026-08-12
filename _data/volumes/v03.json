@@ -174,5 +174,16 @@
     "id": "16",
     "page": "48",
     "year": "2026"
+  },
+  {
+    "abstract": "Competitions comprise effective means for (i) advancing the state of the art, (ii) putting in the spotlight of a scientific community specific topics and problems, as well as (iii) closing the gap for under represented communities in terms of accessing and participating in the shaping of research fields. Competitions can be traced back for centuries and their achievements have had great influence in our modern world. Recently, they (re)gained popularity, with the overwhelming amounts of data that is being generated in different domains, as well as the need of pushing the barriers of existing methods, and available tools to handle such data. This chapter provides a survey of academic challenges in the context of machine learning and related fields. We review the most influential competitions in the last few years and analyze challenges per area of knowledge. The aims of scientific challenges, their goals, major achievements and expectations for the next few years are reviewed. An associated repository is available here: https://hugojair.github.io/challenges-survey/",
+    "authors": [
+      "Hugo Jair Escalante", "Aleksandra Kruchinina"
+    ],
+    "title": "Academic Competitions",
+    "volume": "03",
+    "id": "17",
+    "page": "39",
+    "year": "2026"
   }
 ]
