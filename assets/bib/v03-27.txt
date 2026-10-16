@@ -1,0 +1,8 @@
+@article{
+jaasaari2026vibe,
+title={{VIBE}: Vector Index Benchmark for Embeddings},
+author={Elias J{\"a}{\"a}saari and Ville Hyv{\"o}nen and Matteo Ceccarello and Teemu Roos and Martin Aum{\"u}ller},
+journal={Journal of Data-centric Machine Learning Research},
+year={2026},
+url={https://openreview.net/forum?id=6Sx6ra1QLz}
+}
