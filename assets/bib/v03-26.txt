@@ -1,0 +1,8 @@
+@article{
+egele2026dataset,
+title={Dataset Development},
+author={Romain Egele and Julio Cezar Silveira Jacques Junior and Jan N. van Rijn and Isabelle Guyon and Xavier Baro and Albert Clap{\'e}s and Prasanna Balaprakash and Sergio Escalera and Thomas B. Moeslund and Jun Wan and Walter Reade},
+journal={Journal of Data-centric Machine Learning Research},
+year={2026},
+url={https://openreview.net/forum?id=zvqBQvkxbv}
+}

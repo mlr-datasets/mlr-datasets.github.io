@@ -273,5 +273,16 @@
     "id": "25",
     "page": "17",
     "year": "2026"
+  },
+  {
+    "abstract": "Machine learning is now used in many applications due to its ability to predict, generate, or discover patterns from large quantities of data. However, the process of collecting and transforming data for practical use is intricate. Even in today’s digital era, where substantial data is generated daily, it is uncommon for it to be readily usable; most often, it necessitates meticulous manual data preparation. The haste in developing new models can frequently result in various shortcomings, potentially posing risks when deployed in real-world scenarios (e.g., social discrimination, critical failures), leading to the failure or substantial escalation of costs in AI-based projects. In this chapter, we propose a comprehensive framework for dataset development. The framework consists of several stages (i.e., requirements, design, implementation, evaluation, distribution, and maintenance), each consisting of a set of possible operators (e.g., data cleaning or data reduction). We describe the various operators in detail. Finally, we address practical considerations regarding dataset distribution and maintenance. While the framework is partially based on our experience, we aim to substantiate the steps with scientific references where possible.",
+    "authors": [
+      "Romain Egele", "Julio Cezar Silveira Jacques Junior", "Jan N. van Rijn", "Isabelle Guyon", "Xavier Baro", "Albert Clapés", "Prasanna Balaprakash", "Sergio Escalera", "Thomas B. Moeslund", "Jun Wan", "Walter Reade"
+    ],
+    "title": "Dataset Development",
+    "volume": "03",
+    "id": "26",
+    "page": "46",
+    "year": "2026"
   }
 ]
