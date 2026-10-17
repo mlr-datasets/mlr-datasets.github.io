@@ -1,0 +1,9 @@
+@article{
+mahmud2026slomodeblur,
+title={{SloMoDeblur}: A Large-Scale Smartphone Image Deblurring Dataset},
+author={Syed Mumtahin Mahmud and Mahdi Mohd Hossain Noki and Prothito Shovon Majumder and Abdul Mohaimen Al Radi and Sudipto Das Sukanto and Afia Lubaina and Md Mosaddek Khan},
+journal={Journal of Data-centric Machine Learning Research},
+year={2026},
+url={https://openreview.net/forum?id=38E3mAI0G4},
+note={Dataset Certification}
+}
