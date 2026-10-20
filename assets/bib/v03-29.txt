@@ -1,0 +1,8 @@
+@article{
+uddin2026powerbench,
+title={PowerBench: A Benchmark Suite for Monitoring and Security in Distribution Systems},
+author={Md Joshem Uddin and Roshni Anna Jacob and Damilola R. Olojede and Nanhong Liu and Baris Coskunuzer and Jie Zhang},
+journal={Journal of Data-centric Machine Learning Research},
+year={2026},
+url={https://openreview.net/forum?id=cHMiQ3aw9q}
+}

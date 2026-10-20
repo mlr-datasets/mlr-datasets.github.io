@@ -306,5 +306,16 @@
     "id": "28",
     "page": "18",
     "year": "2026"
+  },
+  {
+    "abstract": "Modern power distribution networks face growing risks from physical faults and cyber intrusions, demanding robust data-driven monitoring for operational resilience. Yet, progress in this area is constrained by the lack of standardized, openly accessible datasets that reflect realistic grid behaviors. This paper presents PowerBench, a comprehensive benchmark suite designed to advance machine learning research for distribution network monitoring and security. PowerBench provides high-fidelity simulations of IEEE 34-, 123-, and 8500-bus feeders under diverse operating and attack scenarios, annotated with line status, cyber events, and system states. Each dataset includes fixed training–validation–test splits, task-specific metrics, and baseline implementations for outage detection and localization, cyberattack identification, and state estimation. Comparative experiments with representative graph neural networks and graph transformer models are reported to establish performance baselines. All datasets, simulation scripts, and evaluation tools are released as open-source resources to ensure transparency and facilitate community adoption. By unifying multiple diagnostic and estimation tasks within a realistic framework, PowerBench provides a common foundation for developing and benchmarking intelligent, trustworthy methods for smart grid applications.",
+    "authors": [
+      "Md Joshem Uddin", "Roshni Anna Jacob", "Damilola R. Olojede", "Nanhong Liu", "Baris Coskunuzer", "Jie Zhang"
+    ],
+    "title": "PowerBench: A Benchmark Suite for Monitoring and Security in Distribution Systems",
+    "volume": "03",
+    "id": "29",
+    "page": "29",
+    "year": "2026"
   }
 ]
