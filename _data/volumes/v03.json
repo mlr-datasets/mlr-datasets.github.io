@@ -317,5 +317,23 @@
     "id": "29",
     "page": "29",
     "year": "2026"
+  },
+  {
+    "abstract": "Text offers intuitive access to information. This can, in particular, complement the density of numerical time series, thereby enabling improved interactions with time series models to enhance accessibility and decision-making. While the creation of question-answering datasets and models has recently seen remarkable growth, most research focuses on question answering (QA) on vision and text, with time series receiving minute attention. To bridge this gap, we propose a challenging novel time series QA (TSQA) dataset, QuAnTS, for Question Answering on Time Series data. Specifically, we pose a wide variety of questions and answers about human motion in the form of tracked skeleton trajectories. We verify that the large-scale QuAnTS dataset is well-formed and comprehensive through extensive experiments. Thoroughly evaluating existing and newly proposed baselines then lays the groundwork for a deeper exploration of TSQA using QuAnTS. Additionally, we provide human performances as a key reference for gauging the practical usability of such models. We hope to encourage future research on interacting with time series models through text, enabling better decision-making and more transparent systems.",
+    "authors": [
+      "Felix Divo",
+      "Maurice Kraus",
+      "Quoc Anh Nguyen",
+      "Hao Xue",
+      "Imran Razzak",
+      "Flora D. Salim",
+      "Kristian Kersting",
+      "Devendra Singh Dhami"
+    ],
+    "title": "QuAnTS: Question Answering on Time Series",
+    "volume": "03",
+    "id": "30",
+    "page": "46",
+    "year": "2026"
   }
 ]
