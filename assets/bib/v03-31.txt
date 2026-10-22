@@ -1,0 +1,8 @@
+@article{
+feng2026voxprofile,
+title={Vox-Profile: A Speech Foundation Model Benchmark for Characterizing Diverse Speaker Traits and Speech Properties},
+author={Tiantian Feng and Jihwan Lee and Anfeng Xu and Yoonjeong Lee and Thanathai Lertpetchpun and Xuan Shi and Helin Wang and Thomas Thebaud and Laureano Moro-Velazquez and Dani Byrd and Najim Dehak and Shrikanth Narayanan},
+journal={Journal of Data-centric Machine Learning Research},
+year={2026},
+url={https://openreview.net/forum?id=qmGQoZfkEN}
+}

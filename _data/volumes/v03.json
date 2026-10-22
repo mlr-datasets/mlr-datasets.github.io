@@ -335,5 +335,27 @@
     "id": "30",
     "page": "46",
     "year": "2026"
+  },
+  {
+    "abstract": "We introduce Vox-Profile, a comprehensive benchmark to characterize rich speaker traits and speech properties using speech foundation models. Unlike prior work that targets a single dimension of speaker traits, Vox-Profile provides holistic and multi-dimensional profiles spanning both static speaker traits (e.g., age, sex, accent, voice quality) and dynamic speech traits (e.g., emotion, speech flow). This benchmark is grounded in speech science and linguistics, developed with domain experts to accurately index speaker and speech characteristics. We report benchmark experiments using over 15 publicly available speech datasets and several widely used speech foundation models that target various static and dynamic speaker and speech properties. In addition to benchmark experiments, we showcase several downstream applications supported by Vox-Profile. First, we show that Vox-Profile can augment existing speech recognition datasets to analyze ASR performance variability. Vox-Profile is also used as a tool to evaluate the performance of speech generation systems. Finally, we assess the quality of our automated profiles through comparison with human evaluation and show convergent validity. Vox-Profile is publicly available at: https://github.com/tiantiaf0627/vox-profile-release.",
+    "authors": [
+      "Tiantian Feng",
+      "Jihwan Lee",
+      "Anfeng Xu",
+      "Yoonjeong Lee",
+      "Thanathai Lertpetchpun",
+      "Xuan Shi",
+      "Helin Wang",
+      "Thomas Thebaud",
+      "Laureano Moro-Velazquez",
+      "Dani Byrd",
+      "Najim Dehak",
+      "Shrikanth Narayanan"
+    ],
+    "title": "Vox-Profile: A Speech Foundation Model Benchmark for Characterizing Diverse Speaker Traits and Speech Properties",
+    "volume": "03",
+    "id": "31",
+    "page": "22",
+    "year": "2026"
   }
 ]
