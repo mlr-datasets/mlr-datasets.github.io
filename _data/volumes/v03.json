@@ -413,5 +413,20 @@
     "id": "34",
     "page": "63",
     "year": "2026"
+  },
+  {
+    "abstract": "Automated driving systems rely on diverse training data, yet increasing privacy regulations restrict cross-border data sharing. This study shows that geographic separation is associated with a continuous, distance-based domain shift and progressively lower model performance, with distance acting as a proxy for latent environmental factors, challenging the assumption of binary in-domain versus out-of-domain behaviour. Using two European driving datasets, EuroCity Persons Dataset (ECP) and the Zenseact Open Dataset (ZOD), and one global dash-camera dataset OpenStreetView-5M (OSV-5M), we provide converging evidence at representation and task levels. Encoder semantic embeddings diverge systematically with geographic distance, yielding Pearson correlations of 0.476–0.632 for ECP, 0.570–0.711 for ZOD, and 0.404–0.568 for OSV-5M across three distributional metrics (Maximum Mean Discrepancy (MMD), Sliced Wasserstein Distance (SWD), Energy Distance (ED)), strengthening to 0.665–0.762 when controlling for confounding variables on ZOD. Downstream perception models exhibit corresponding performance degradation: object detection correlates at -0.512 to -0.585 on ECP and -0.563 to -0.659 on ZOD, while semantic segmentation shows effects of -0.503 to -0.726 across models. While this study is observational and does not establish causality, controlled analyses reduce confounding effects, and annotation spatial distributions show no statistically significant correlation with geographic distance, suggesting that annotation distribution differences are unlikely to be the primary driver of the observed trends. These findings suggest that geographically fragmented datasets may contribute to performance gaps when models are deployed substantially outside their training regions. We characterise geographic domain shift as continuous, with perception performance degrading progressively with increasing spatial separation rather than at a simple in-domain/out-of-domain boundary.",
+    "authors": [
+      "Joe Murtagh",
+      "Reenu Mohandas",
+      "Tim Brophy",
+      "Ganesh Sistu",
+      "Ciarán Eising"
+    ],
+    "title": "Beyond Borders: Quantifying Geographic Domain Shift in Automotive Perception",
+    "volume": "03",
+    "id": "35",
+    "page": "41",
+    "year": "2026"
   }
 ]

@@ -1,0 +1,8 @@
+@article{
+murtagh2026beyond,
+title={Beyond Borders: Quantifying Geographic Domain Shift in Automotive Perception},
+author={Joe Murtagh and Reenu Mohandas and Tim Brophy and Ganesh Sistu and Ciar{\'a}n Eising},
+journal={Journal of Data-centric Machine Learning Research},
+year={2026},
+url={https://openreview.net/forum?id=go887vmxL8}
+}
