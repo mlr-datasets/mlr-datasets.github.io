@@ -389,5 +389,29 @@
     "id": "33",
     "page": "26",
     "year": "2026"
+  },
+  {
+    "abstract": "Characterizing and quantifying gender representation disparities in audiovisual storytelling contents is necessary to grasp how stereotypes may perpetuate on screen. In this article, we consider the high-level construct of objectification and introduce a new AI task to the ML community: characterize and quantify complex multimodal (visual, speech, audio) temporal patterns producing objectification in films. Building on film studies and psychology, we define the construct of objectification in a structured thesaurus involving 5 sub-constructs manifesting through 11 concepts spanning 3 modalities. We introduce the Multimodal Objectifying Gaze (MObyGaze) dataset, made of 20 movies annotated densely by experts for objectification levels and concepts over freely delimited segments: it amounts to 6072 segments over 43 hours of video with fine-grained localization and categorization. We formulate new video interpretation tasks, show the feasibility of multimodal objectification detection, and analyze data and model bias to propose improvements. We exemplify two applications of MObyGaze, showing how rich concept annotation can improve model reliability and explainability. We make our code and our dataset available to the community and described in the Croissant format: https://github.com/husky-helen/MObyGaze",
+    "authors": [
+      "Elisa Ancarani",
+      "Julie Tores",
+      "Lucile Sassatelli",
+      "Hui-Yin Wu",
+      "Rémy Sun",
+      "Paul Mouret",
+      "Clement Bergman",
+      "Léa Andolfi",
+      "Victor Ecrement",
+      "Thierry Devars",
+      "Magali GUARESI",
+      "Virginie Julliard",
+      "Sarah Lécossais",
+      "Frederic Precioso"
+    ],
+    "title": "MObyGaze: a film dataset of multimodal objectification densely annotated by experts",
+    "volume": "03",
+    "id": "34",
+    "page": "63",
+    "year": "2026"
   }
 ]

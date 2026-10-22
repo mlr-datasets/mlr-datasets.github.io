@@ -1,0 +1,9 @@
+@article{
+ancarani2026mobygaze,
+title={{MO}byGaze: a film dataset of multimodal objectification densely annotated by experts},
+author={Elisa Ancarani and Julie Tores and Lucile Sassatelli and Hui-Yin Wu and R{\'e}my Sun and Paul Mouret and Clement Bergman and L{\'e}a Andolfi and Victor Ecrement and Thierry Devars and Magali GUARESI and Virginie Julliard and Sarah L{\'e}cossais and Frederic Precioso},
+journal={Journal of Data-centric Machine Learning Research},
+year={2026},
+url={https://openreview.net/forum?id=ai2PAWRIVA},
+note={Dataset Certification}
+}
