@@ -1,0 +1,8 @@
+@article{
+ge2026defining,
+title={Defining and Benchmarking a Data-Centric Design Space for Brain Graph Construction},
+author={Qinwen Ge and Roza G Bayrak and Anwar Said and Catie Chang and Xenofon D. Koutsoukos and Tyler Derr},
+journal={Journal of Data-centric Machine Learning Research},
+year={2026},
+url={https://openreview.net/forum?id=D6LS3f8VfM}
+}

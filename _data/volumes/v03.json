@@ -373,5 +373,21 @@
     "id": "32",
     "page": "33",
     "year": "2026"
+  },
+  {
+    "abstract": "The construction of brain graphs from functional Magnetic Resonance Imaging (fMRI) data plays a crucial role in enabling graph machine learning for neuroimaging. However, current practices often rely on rigid pipelines that overlook critical data-centric choices in how brain graphs are constructed. In this work, we adopt a Data-Centric AI perspective and systematically define and benchmark a data-centric design space for brain graph construction, constrasting with primarily model-centric prior work. We organize this design space into three stages: temporal signal processing, topology extraction, and graph featurization. Our contributions lie less in novel components and more in evaluating how combinations of existing and modified techniques influence downstream performance. Specifically, we study high-amplitude BOLD signal filtering, sparsification and unification strategies for connectivity, alternative correlation metrics, and multi-view node and edge features, such as incorporating lagged dynamics. Experiments on the HCP1200 and ABIDE datasets show that systematic, validation-guided exploration of data-centric configurations yields substantial accuracy gains over a standard fixed pipeline, while the best-performing construction varies across datasets and settings. These findings highlight the critical role of upstream data decisions and underscore the importance of systematically exploring the data-centric design space for graph-based neuroimaging. Our code is available at https://github.com/GeQinwen/DataCentricBrainGraphs.",
+    "authors": [
+      "Qinwen Ge",
+      "Roza G Bayrak",
+      "Anwar Said",
+      "Catie Chang",
+      "Xenofon D. Koutsoukos",
+      "Tyler Derr"
+    ],
+    "title": "Defining and Benchmarking a Data-Centric Design Space for Brain Graph Construction",
+    "volume": "03",
+    "id": "33",
+    "page": "26",
+    "year": "2026"
   }
 ]
