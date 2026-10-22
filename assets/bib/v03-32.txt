@@ -1,0 +1,8 @@
+@article{
+takeda2026circled,
+title={{CIRCLED}: A Multi-turn {CIR} Dataset with Consistent Dialogues across Domains},
+author={Tomohisa Takeda and Yu-Chieh Lin and Yuji Nozawa and Youyang Ng and Osamu Torii and Yusuke Matsui},
+journal={Journal of Data-centric Machine Learning Research},
+year={2026},
+url={https://openreview.net/forum?id=xW9cXbbMJJ}
+}

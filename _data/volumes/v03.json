@@ -357,5 +357,21 @@
     "id": "31",
     "page": "22",
     "year": "2026"
+  },
+  {
+    "abstract": "Existing Multi-Turn Composed Image Retrieval (MTCIR) datasets lack dialogue-history consistency and are restricted to the fashion domain. To address these limitations, we construct CIRCLED by extending FashionIQ, CIRR, and CIRCO. In CIRCLED, the query at each turn progressively approaches the target image. Data are generated via a CIReVL-based retrieval pipeline and curated with multiple filters on retrieval success, turn length, consistency, and information redundancy to ensure quality. In total, we collect 22,608 multi-turn sessions across nine subsets, substantially exceeding Multi-turn FashionIQ (11,505 sessions) in both scale and generality. We further apply multiple baseline methods and quantitatively assess retrieval accuracy on CIRCLED. Our work provides a practical, high-quality benchmark to facilitate future research on multi-turn CIR. The dataset is publicly available at https://huggingface.co/datasets/tk1441/CIRCLED, and the code at https://github.com/mti-lab/circled.",
+    "authors": [
+      "Tomohisa Takeda",
+      "Yu-Chieh Lin",
+      "Yuji Nozawa",
+      "Youyang Ng",
+      "Osamu Torii",
+      "Yusuke Matsui"
+    ],
+    "title": "CIRCLED: A Multi-turn CIR Dataset with Consistent Dialogues across Domains",
+    "volume": "03",
+    "id": "32",
+    "page": "33",
+    "year": "2026"
   }
 ]
